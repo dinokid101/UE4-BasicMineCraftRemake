@@ -1,0 +1,715 @@
+﻿Log file open, 04/19/17 01:27:44
+LogInit:Display: Running engine for game: TefMineCraft
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(951547760) SRandInit(951547760).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.092999
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.19-08.27.47:789][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.19-08.27.47:789][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.19-08.27.47:888][  0]LogInit: Computer: ULTIMATESKIBUM
+[2017.04.19-08.27.47:888][  0]LogInit: User: Liam
+[2017.04.19-08.27.47:888][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.19-08.27.47:888][  0]LogInit: High frequency timer resolution =3.906391 MHz
+[2017.04.19-08.27.47:888][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.04.19-08.27.47:912][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.19-08.27.47:912][  0]LogMemory: Process Physical Memory: 263.91 MB used, 263.91 MB peak
+[2017.04.19-08.27.47:912][  0]LogMemory: Process Virtual Memory: 262.62 MB used, 262.62 MB peak
+[2017.04.19-08.27.47:912][  0]LogMemory: Physical Memory: 6191.17 MB used,  1947.83 MB free, 8139.00 MB total
+[2017.04.19-08.27.47:912][  0]LogMemory: Virtual Memory: 645.13 MB used,  1947.83 MB free, 134217728.00 MB total
+[2017.04.19-08.27.48:541][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.04.19-08.27.53:873][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.19-08.27.54:391][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 770' (Feature Level 11_0)
+[2017.04.19-08.27.54:391][  0]LogD3D11RHI:       4063/0/4069 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.19-08.27.54:433][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.19-08.27.54:433][  0]LogD3D11RHI:       0/0/4069 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.19-08.27.54:433][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.19-08.27.54:442][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.19-08.27.54:442][  0]LogD3D11RHI:     GPU DeviceId: 0x1184 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.19-08.27.54:442][  0]LogWindows: EnumDisplayDevices:
+[2017.04.19-08.27.54:442][  0]LogWindows:    0. 'NVIDIA GeForce GTX 770' (P:1 D:1)
+[2017.04.19-08.27.54:443][  0]LogWindows:    1. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.04.19-08.27.54:443][  0]LogWindows:    2. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.04.19-08.27.54:443][  0]LogWindows:    3. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.04.19-08.27.54:443][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.04.19-08.27.54:443][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 770
+[2017.04.19-08.27.54:443][  0]LogD3D11RHI:   Driver Version: 381.65 (internal:22.21.13.8165, unified:381.65)
+[2017.04.19-08.27.54:443][  0]LogD3D11RHI:      Driver Date: 3-31-2017
+[2017.04.19-08.27.54:443][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.19-08.27.54:905][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.04.19-08.27.54:954][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.19-08.27.55:658][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.04.19-08.27.55:743][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Intermediate/Shaders/WorkingDirectory/7188/).
+[2017.04.19-08.27.55:751][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Liam/AppData/Local/Temp/UnrealShaderWorkingDir/77C861554B18504583A853809604D35A/'.
+[2017.04.19-08.27.55:751][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.19-08.28.00:733][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.19-08.28.00:825][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.19-08.28.00:933][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.19-08.28.01:030][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.19-08.28.01:167][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.19-08.28.01:279][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.19-08.28.01:382][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.19-08.28.01:478][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.19-08.28.01:564][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.19-08.28.01:691][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.19-08.28.01:827][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.19-08.28.01:965][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.19-08.28.02:057][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.19-08.28.02:149][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.19-08.28.02:279][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.19-08.28.02:467][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.19-08.28.02:467][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.19-08.28.02:573][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.19-08.28.02:914][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.19-08.28.02:976][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.19-08.28.03:091][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.19-08.28.03:184][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.19-08.28.03:274][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.19-08.28.03:369][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.19-08.28.03:369][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.19-08.28.05:039][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.19-08.28.06:003][  0]LogDerivedDataCache: Loaded boot cache 0.90s 52MB C:/Users/Liam/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.19-08.28.06:003][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Liam/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.19-08.28.06:003][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.19-08.28.06:003][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.19-08.28.06:003][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.19-08.28.06:003][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.19-08.28.06:043][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.19-08.28.06:056][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Liam/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.19-08.28.06:155][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.19-08.28.06:201][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.19-08.28.06:201][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.19-08.28.13:045][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.19-08.28.13:050][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.19-08.28.13:711][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.19-08.28.13:896][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.19-08.28.13:981][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.19-08.28.13:981][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.19-08.28.13:981][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.19-08.28.17:240][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: tefminecraft, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1899195743
+[2017.04.19-08.28.17:400][  0]LogAssetRegistry: FAssetRegistry took 0.0218 seconds to start up
+[2017.04.19-08.28.17:867][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.374722 seconds
+[2017.04.19-08.28.17:892][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.19-08.28.17:892][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.04.19-08.28.17:892][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.19-08.28.18:099][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.19-08.29.09:890][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.19-08.29.09:975][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.19-08.29.13:713][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.19-08.29.14:818][  0]SourceControl: Info Source control is disabled
+[2017.04.19-08.29.14:840][  0]SourceControl: Info Source control is disabled
+[2017.04.19-08.29.14:962][  0]SourceControl: Info Source control is disabled
+[2017.04.19-08.29.15:054][  0]SourceControl: Info Source control is disabled
+[2017.04.19-08.29.17:306][  0]LogHoudiniEngine: Starting the Houdini Engine module.
+[2017.04.19-08.29.17:323][  0]LogHoudiniEngine: Loaded libHAPIL.dll from HFS environment path C:/PROGRA~1/SIDEEF~1/HOUDIN~1.557/bin
+[2017.04.19-08.29.17:324][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/houdini_logo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.19-08.29.17:326][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/houdini_default_material.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.19-08.29.17:330][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/houdini_bgeo_import.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.19-08.29.30:370][  0]LogHoudiniEngine: Successfully intialized the Houdini Engine API module.
+[2017.04.19-08.29.31:798][  0]LogEngine: Initializing Engine...
+[2017.04.19-08.29.31:799][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.19-08.29.32:771][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.19-08.29.32:807][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.19-08.29.32:942][  0]LogInit: FAudioDevice initialized.
+[2017.04.19-08.29.33:020][  0]LogDerivedDataCache: Saved boot cache 0.07s 53MB C:/Users/Liam/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.19-08.29.33:055][  0]LogInit: Texture streaming: Enabled
+[2017.04.19-08.29.33:478][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.19-08.29.33:478][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={3315A6A5-4569-6ABB-17E2-6F978EE3442B}
+[2017.04.19-08.29.34:240][  0]LogInit: Transaction tracking system initialized
+[2017.04.19-08.29.36:549][  0]BlueprintLog: New page: Editor Load
+[2017.04.19-08.29.43:446][  0]LocalizationService: Info Localization service is disabled
+[2017.04.19-08.29.46:562][  0]LogConsoleResponse:Display: 
+[2017.04.19-08.29.48:904][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/' took 0.07s
+[2017.04.19-08.29.48:904][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.19-08.29.48:927][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.19-08.29.51:906][  0]LogHoudiniEngineEditor: Starting the Houdini Engine Editor module.
+[2017.04.19-08.29.56:334][  0]SourceControl: Info Source control is disabled
+[2017.04.19-08.29.56:350][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.19-08.29.56:392][  0]LightingResults: New page: Lighting Build
+[2017.04.19-08.29.56:809][  0]MapCheck: New page: Map Check
+[2017.04.19-08.29.56:809][  0]LightingResults: New page: Lighting Build
+[2017.04.19-08.29.58:987][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.19-08.29.59:873][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.19-08.30.00:121][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.19-08.30.00:225][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 103.833ms to complete.
+[2017.04.19-08.30.00:225][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 3.878
+[2017.04.19-08.30.02:661][  0]LogCollectionManager: Loaded 0 collections in 0.002608 seconds
+[2017.04.19-08.30.02:921][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Documents/Unreal Projects/TefMineCraft/Saved/Collections/' took 0.01s
+[2017.04.19-08.30.02:921][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/Developers/Liam/Collections/' took 0.01s
+[2017.04.19-08.30.02:921][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/Collections/' took 0.01s
+[2017.04.19-08.30.02:921][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.04.19-08.30.02:937][  0]LogContentBrowser: Native class hierarchy populated in 0.0162 seconds. Added 2287 classes and 464 folders.
+[2017.04.19-08.30.03:048][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.011 s
+[2017.04.19-08.30.03:066][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.017 s
+[2017.04.19-08.30.03:200][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0027 seconds. Added 0 classes and 0 folders.
+[2017.04.19-08.30.07:121][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0024 seconds. Added 0 classes and 0 folders.
+[2017.04.19-08.30.07:351][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0025 seconds. Added 1 classes and 2 folders.
+[2017.04.19-08.30.08:318][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.19-08.30.09:145][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.19-08.30.09:731][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0025 seconds. Added 1 classes and 2 folders.
+[2017.04.19-08.30.09:731][  0]LogLoad: (Engine Initialization) Total time: 154.88 seconds
+[2017.04.19-08.30.09:731][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.67 seconds
+[2017.04.19-08.30.09:731][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.19-08.30.09:731][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.19-08.30.10:092][  0]LogOcInput: OculusInput pre-init called
+[2017.04.19-08.30.10:351][  0]LogContentStreaming: Texture pool size now 800 MB
+[2017.04.19-08.30.10:405][  0]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.19-08.30.10:410][  0]LogSlate: Took 0.000343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.19-08.30.10:520][  0]LogSlate: Took 0.056824 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.19-08.30.11:654][  0]LogRenderer: Reallocating scene render targets to support 1164x580 NumSamples 1 (Frame:2).
+[2017.04.19-08.30.13:854][  1]LogSlate: Took 0.086130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.19-08.30.14:014][  2]LogSlate: Took 0.000327 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.19-08.30.14:586][  4]LogAssetRegistry: Asset discovery search completed in 117.2077 seconds
+[2017.04.19-08.30.14:608][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000009 seconds (found 0 objects)
+[2017.04.19-08.30.14:608][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.022069 seconds (updated 0 objects)
+[2017.04.19-08.30.22:992][866]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.19-08.30.24:660][866]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.19-08.30.25:625][866]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0030 seconds. Added 112 classes and 0 folders.
+[2017.04.19-08.30.27:426][866]LogSlate: Took 0.015273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.19-08.30.27:885][867]LogSlate: Took 0.018935 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.04.19-08.30.56:140][899]LogBlueprint:Warning: [BP_Voxel] 'Noise' variable not found. Base class was probably changed.
+[2017.04.19-08.30.56:140][899]LogBlueprint:Warning: [BP_Voxel] 'YLoc' variable not found. Base class was probably changed.
+[2017.04.19-08.30.56:140][899]LogBlueprint:Warning: [BP_Voxel] 'YLoc' variable not found. Base class was probably changed.
+[2017.04.19-08.30.56:140][899]LogBlueprint:Warning: [BP_Voxel] 'XLoc' variable not found. Base class was probably changed.
+[2017.04.19-08.30.56:140][899]LogBlueprint:Warning: [BP_Voxel] 'XLoc' variable not found. Base class was probably changed.
+[2017.04.19-08.30.56:140][899]LogBlueprint:Warning: [BP_Voxel] 'XLoc' variable not found. Base class was probably changed.
+[2017.04.19-08.30.56:140][899]LogBlueprint:Warning: [BP_Voxel] 'YLoc' variable not found. Base class was probably changed.
+[2017.04.19-08.30.56:140][899]LogBlueprint:Warning: [BP_Voxel] 'XLoc' variable not found. Base class was probably changed.
+[2017.04.19-08.30.56:141][899]LogBlueprint:Warning: [BP_Voxel] 'YLoc' variable not found. Base class was probably changed.
+[2017.04.19-08.30.56:141][899]LogBlueprint:Warning: [BP_Voxel] 'XLoc' variable not found. Base class was probably changed.
+[2017.04.19-08.30.56:141][899]LogBlueprint:Warning: [BP_Voxel] 'YLoc' variable not found. Base class was probably changed.
+[2017.04.19-08.30.56:141][899]LogBlueprint:Warning: [BP_Voxel] 'XLoc' variable not found. Base class was probably changed.
+[2017.04.19-08.30.56:142][899]LogBlueprint:Warning: [BP_Voxel] 'YLoc' variable not found. Base class was probably changed.
+[2017.04.19-08.31.11:047][147]BlueprintLog: New page: Compile BP_Voxel
+[2017.04.19-08.31.12:697][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/Blueprints/BP_Voxel" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/MyAssets/Blueprints/BP_Voxel.uasset" SILENT=true
+[2017.04.19-08.31.13:194][269]LogSavePackage: Save=77.52ms
+[2017.04.19-08.31.13:194][269]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Saved/BP_Voxel6A95668F445CDCE8BF58DC811EB2197B.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/MyAssets/Blueprints/BP_Voxel.uasset'
+[2017.04.19-08.31.13:197][269]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/MyAssets/Blueprints/BP_Voxel.uasset
+[2017.04.19-08.31.14:077][356]LogRenderer: Reallocating scene render targets to support 1164x744 NumSamples 1 (Frame:7).
+[2017.04.19-08.31.24:006][508]Recompiling SimplexNoise...
+[2017.04.19-08.31.24:006][508]Recompiling TefMineCraft...
+[2017.04.19-08.31.24:006][508]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe TefMineCraft -ModuleWithSuffix SimplexNoise 9346 -ModuleWithSuffix TefMineCraft 9193 Win64 Development -editorrecompile -canskiplink "C:/Users/Liam/Documents/Unreal Projects/TefMineCraft/TefMineCraft.uproject" ]
+[2017.04.19-08.31.24:008][508]Warning: Starting HotReload took  0.1s.
+[2017.04.19-08.33.05:145][585]CompilerResultsLog: New page: Compilation - Apr 18, 2017, 6:33:05 PM
+[2017.04.19-08.33.05:145][585]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.04.19-08.33.05:145][585]CompilerResultsLog: Info Parsing headers for TefMineCraftEditor
+[2017.04.19-08.33.05:145][585]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Liam\Documents\Unreal Projects\TefMineCraft\TefMineCraft.uproject" "C:\Users\Liam\Documents\Unreal Projects\TefMineCraft\Intermediate\Build\Win64\TefMineCraftEditor\Development\TefMineCraftEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.04.19-08.33.05:145][585]CompilerResultsLog: Info Reflection code generated for TefMineCraftEditor in 6.1115461 seconds
+[2017.04.19-08.33.05:145][585]CompilerResultsLog: Info Performing 5 actions (4 in parallel)
+[2017.04.19-08.33.05:145][585]CompilerResultsLog: Info VoxelActor.cpp
+[2017.04.19-08.33.05:145][585]CompilerResultsLog: Info TefMineCraft.generated.cpp
+[2017.04.19-08.33.05:145][585]CompilerResultsLog: Info SimplexNoiseLibrary.cpp
+[2017.04.19-08.33.05:145][585]CompilerResultsLog: Info [4/5] Link UE4Editor-TefMineCraft-9193.dll
+[2017.04.19-08.33.05:145][585]CompilerResultsLog: Info [5/5] Link UE4Editor-TefMineCraft-9193.lib
+[2017.04.19-08.33.05:145][585]CompilerResultsLog: Info    Creating library C:\Users\Liam\Documents\Unreal Projects\TefMineCraft\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TefMineCraft-9193.lib and object C:\Users\Liam\Documents\Unreal Projects\TefMineCraft\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TefMineCraft-9193.exp
+[2017.04.19-08.33.05:145][585]CompilerResultsLog: Info    Creating library C:\Users\Liam\Documents\Unreal Projects\TefMineCraft\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TefMineCraft-9193.suppressed.lib and object C:\Users\Liam\Documents\Unreal Projects\TefMineCraft\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TefMineCraft-9193.suppressed.exp
+[2017.04.19-08.33.05:145][585]CompilerResultsLog: Info Total build time: 100.22 seconds (Local executor: 65.80 seconds)
+[2017.04.19-08.33.05:182][585]LogMainFrame: MainFrame: Module compiling took 101.192 seconds
+[2017.04.19-08.33.05:439][585]LogClass: Could not find existing class VoxelActor in package /Script/TefMineCraft for HotReload, assuming new class
+[2017.04.19-08.33.05:439][585]LogClass: Function AddInstanceVoxel is new.
+[2017.04.19-08.33.05:439][585]LogClass: Function CalculateNoise is new.
+[2017.04.19-08.33.05:439][585]LogClass: Function SetVoxel is new.
+[2017.04.19-08.33.05:470][585]LogHotReload: Re-instancing VoxelActor after hot-reload.
+[2017.04.19-08.33.06:173][585]LogContentBrowser: Native class hierarchy updated for 'TefMineCraft' in 0.0026 seconds. Added 6 classes and 2 folders.
+[2017.04.19-08.33.06:177][585]Display: HotReload successful (14 functions remapped  0 scriptstructs remapped)
+[2017.04.19-08.33.06:665][585]LogContentBrowser: Native class hierarchy populated in 0.0183 seconds. Added 2289 classes and 468 folders.
+[2017.04.19-08.33.06:832][585]Display: HotReload took 102.9s.
+[2017.04.19-08.33.16:589][699]BlueprintLog: New page: Compile BP_Voxel
+[2017.04.19-08.33.23:668][445]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.19-08.33.23:749][445]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-08.33.23:753][445]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.19-08.33.23:792][445]PIE: New page: PIE session: FirstPersonExampleMap (Apr 18, 2017, 6:33:23 PM)
+[2017.04.19-08.33.23:817][445]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.19-08.33.23:937][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.120126s)
+[2017.04.19-08.33.23:938][445]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.19-08.33.23:939][445]LogPlayLevel: PIE: World Init took: (0.001462s)
+[2017.04.19-08.33.23:948][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.139157s)
+[2017.04.19-08.33.24:043][445]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.19-08.33.24:078][445]LogInit: FAudioDevice initialized.
+[2017.04.19-08.33.24:322][445]LogLoad: Game class is 'TefMineCraftGameMode'
+[2017.04.19-08.33.24:427][445]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.19-01.33.24
+[2017.04.19-08.33.24:477][445]LogWorld: Bringing up level for play took: 0.050931
+[2017.04.19-08.33.24:700][445]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0025 seconds. Added 11 classes and 0 folders.
+[2017.04.19-08.33.24:774][445]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.776
+[2017.04.19-08.33.24:774][445]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-08.34.21:335][582]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-08.34.21:568][582]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-08.38.09:420][380]LogHotReload: New module detected: UE4Editor-TefMineCraft-584.dll
+[2017.04.19-08.38.10:112][383]LogHotReload: Starting Hot-Reload from IDE
+[2017.04.19-08.38.10:427][383]LogContentBrowser: Native class hierarchy updated for 'TefMineCraft' in 0.0028 seconds. Added 6 classes and 2 folders.
+[2017.04.19-08.38.10:431][383]Display: HotReload successful (17 functions remapped  0 scriptstructs remapped)
+[2017.04.19-08.38.10:925][383]LogContentBrowser: Native class hierarchy populated in 0.0189 seconds. Added 2289 classes and 468 folders.
+[2017.04.19-08.38.10:931][383]Display: HotReload took  0.8s.
+[2017.04.19-08.39.44:607][664]LogHotReload: New module detected: UE4Editor-TefMineCraft-4982.dll
+[2017.04.19-08.39.45:292][667]LogHotReload: Starting Hot-Reload from IDE
+[2017.04.19-08.39.45:614][667]LogClass: Could not find existing class VoxelActor in package /Script/TefMineCraft for HotReload, assuming new class
+[2017.04.19-08.39.45:614][667]LogClass: Function AddInstanceVoxel is new.
+[2017.04.19-08.39.45:614][667]LogClass: Function SetVoxel is new.
+[2017.04.19-08.39.45:640][667]LogHotReload: Re-instancing VoxelActor after hot-reload.
+[2017.04.19-08.39.46:405][667]LogContentBrowser: Native class hierarchy updated for 'TefMineCraft' in 0.0030 seconds. Added 6 classes and 2 folders.
+[2017.04.19-08.39.46:409][667]Display: HotReload successful (14 functions remapped  0 scriptstructs remapped)
+[2017.04.19-08.39.46:805][667]LogContentBrowser: Native class hierarchy populated in 0.0199 seconds. Added 2289 classes and 468 folders.
+[2017.04.19-08.39.46:810][667]Display: HotReload took  1.5s.
+[2017.04.19-08.39.53:384][ 52]BlueprintLog: New page: Compile BP_Voxel
+[2017.04.19-08.39.58:226][487]Recompiling SimplexNoise...
+[2017.04.19-08.39.58:226][487]Recompiling TefMineCraft...
+[2017.04.19-08.39.58:250][487]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe TefMineCraft -ModuleWithSuffix SimplexNoise 1309 -ModuleWithSuffix TefMineCraft 1597 Win64 Development -editorrecompile -canskiplink "C:/Users/Liam/Documents/Unreal Projects/TefMineCraft/TefMineCraft.uproject" ]
+[2017.04.19-08.39.58:252][487]Warning: Starting HotReload took  0.2s.
+[2017.04.19-08.40.09:748][851]CompilerResultsLog: New page: Compilation - Apr 18, 2017, 6:40:09 PM
+[2017.04.19-08.40.09:749][851]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.04.19-08.40.09:749][851]CompilerResultsLog: Info Target is up to date
+[2017.04.19-08.40.09:749][851]CompilerResultsLog: Info Total build time: 10.68 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2017.04.19-08.40.09:749][851]LogMainFrame: MainFrame: Module compiling took 11.548 seconds
+[2017.04.19-08.40.10:131][851]LogContentBrowser: Native class hierarchy populated in 0.0162 seconds. Added 2289 classes and 468 folders.
+[2017.04.19-08.40.10:131][851]Display: HotReload took 12.1s.
+[2017.04.19-08.44.14:206][321]LogHotReload: New module detected: UE4Editor-TefMineCraft-6022.dll
+[2017.04.19-08.44.15:228][325]LogHotReload: Starting Hot-Reload from IDE
+[2017.04.19-08.44.15:464][325]LogContentBrowser: Native class hierarchy updated for 'TefMineCraft' in 0.0024 seconds. Added 6 classes and 2 folders.
+[2017.04.19-08.44.15:468][325]Display: HotReload successful (16 functions remapped  0 scriptstructs remapped)
+[2017.04.19-08.44.15:893][325]LogContentBrowser: Native class hierarchy populated in 0.0199 seconds. Added 2289 classes and 468 folders.
+[2017.04.19-08.44.15:899][325]Display: HotReload took  0.7s.
+[2017.04.19-08.44.22:811][618]BlueprintLog: New page: Compile BP_Voxel
+[2017.04.19-08.44.28:162][119]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.19-08.44.28:216][119]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-08.44.28:216][119]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.19-08.44.28:216][119]PIE: New page: PIE session: FirstPersonExampleMap (Apr 18, 2017, 6:44:28 PM)
+[2017.04.19-08.44.28:216][119]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.19-08.44.28:350][119]LogPlayLevel: PIE: StaticDuplicateObject took: (0.134038s)
+[2017.04.19-08.44.28:353][119]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.19-08.44.28:361][119]LogPlayLevel: PIE: World Init took: (0.010722s)
+[2017.04.19-08.44.28:361][119]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.145146s)
+[2017.04.19-08.44.28:431][119]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.19-08.44.28:449][119]LogInit: FAudioDevice initialized.
+[2017.04.19-08.44.28:517][119]LogLoad: Game class is 'TefMineCraftGameMode'
+[2017.04.19-08.44.28:520][119]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.19-01.44.28
+[2017.04.19-08.44.28:520][119]LogWorld: Bringing up level for play took: 0.001396
+[2017.04.19-08.44.28:521][119]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.524
+[2017.04.19-08.44.28:522][119]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-08.46.55:197][218]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-08.46.55:270][218]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-08.48.25:154][699]Recompiling SimplexNoise...
+[2017.04.19-08.48.25:154][699]Recompiling TefMineCraft...
+[2017.04.19-08.48.25:154][699]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe TefMineCraft -ModuleWithSuffix SimplexNoise 4562 -ModuleWithSuffix TefMineCraft 4268 Win64 Development -editorrecompile -canskiplink "C:/Users/Liam/Documents/Unreal Projects/TefMineCraft/TefMineCraft.uproject" ]
+[2017.04.19-08.48.25:160][699]Warning: Starting HotReload took  0.0s.
+[2017.04.19-08.49.41:042][198]CompilerResultsLog: New page: Compilation - Apr 18, 2017, 6:49:41 PM
+[2017.04.19-08.49.41:042][198]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.04.19-08.49.41:042][198]CompilerResultsLog: Info Parsing headers for TefMineCraftEditor
+[2017.04.19-08.49.41:042][198]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Liam\Documents\Unreal Projects\TefMineCraft\TefMineCraft.uproject" "C:\Users\Liam\Documents\Unreal Projects\TefMineCraft\Intermediate\Build\Win64\TefMineCraftEditor\Development\TefMineCraftEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.04.19-08.49.41:042][198]CompilerResultsLog: Info Reflection code generated for TefMineCraftEditor in 5.3188044 seconds
+[2017.04.19-08.49.41:042][198]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.04.19-08.49.41:042][198]CompilerResultsLog: Info VoxelActor.cpp
+[2017.04.19-08.49.41:042][198]CompilerResultsLog: Info [2/3] Link UE4Editor-TefMineCraft-4268.dll
+[2017.04.19-08.49.41:042][198]CompilerResultsLog: Info [3/3] Link UE4Editor-TefMineCraft-4268.lib
+[2017.04.19-08.49.41:042][198]CompilerResultsLog: Info    Creating library C:\Users\Liam\Documents\Unreal Projects\TefMineCraft\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TefMineCraft-4268.lib and object C:\Users\Liam\Documents\Unreal Projects\TefMineCraft\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TefMineCraft-4268.exp
+[2017.04.19-08.49.41:042][198]CompilerResultsLog: Info    Creating library C:\Users\Liam\Documents\Unreal Projects\TefMineCraft\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TefMineCraft-4268.suppressed.lib and object C:\Users\Liam\Documents\Unreal Projects\TefMineCraft\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TefMineCraft-4268.suppressed.exp
+[2017.04.19-08.49.41:043][198]CompilerResultsLog: Info Total build time: 74.10 seconds (Local executor: 44.12 seconds)
+[2017.04.19-08.49.41:043][198]LogMainFrame: MainFrame: Module compiling took 75.895 seconds
+[2017.04.19-08.49.41:314][198]LogContentBrowser: Native class hierarchy updated for 'TefMineCraft' in 0.0032 seconds. Added 6 classes and 2 folders.
+[2017.04.19-08.49.41:318][198]Display: HotReload successful (16 functions remapped  0 scriptstructs remapped)
+[2017.04.19-08.49.41:804][198]LogContentBrowser: Native class hierarchy populated in 0.0188 seconds. Added 2289 classes and 468 folders.
+[2017.04.19-08.49.41:804][198]Display: HotReload took 76.7s.
+[2017.04.19-08.49.48:979][638]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.19-08.49.49:009][638]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-08.49.49:009][638]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.19-08.49.49:010][638]PIE: New page: PIE session: FirstPersonExampleMap (Apr 18, 2017, 6:49:49 PM)
+[2017.04.19-08.49.49:010][638]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.19-08.49.49:078][638]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067836s)
+[2017.04.19-08.49.49:079][638]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.19-08.49.49:079][638]LogPlayLevel: PIE: World Init took: (0.001537s)
+[2017.04.19-08.49.49:079][638]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.069686s)
+[2017.04.19-08.49.49:190][638]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.19-08.49.49:226][638]LogInit: FAudioDevice initialized.
+[2017.04.19-08.49.49:260][638]LogLoad: Game class is 'TefMineCraftGameMode'
+[2017.04.19-08.49.49:263][638]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.19-01.49.49
+[2017.04.19-08.49.49:264][638]LogWorld: Bringing up level for play took: 0.001571
+[2017.04.19-08.49.49:265][638]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.733
+[2017.04.19-08.49.49:265][638]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-08.50.30:358][149]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-08.50.30:461][149]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-08.52.31:279][824]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.19-08.52.31:305][824]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-08.52.31:305][824]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.19-08.52.31:306][824]PIE: New page: PIE session: FirstPersonExampleMap (Apr 18, 2017, 6:52:31 PM)
+[2017.04.19-08.52.31:306][824]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.19-08.52.31:354][824]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048597s)
+[2017.04.19-08.52.31:413][824]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.19-08.52.31:414][824]LogPlayLevel: PIE: World Init took: (0.059222s)
+[2017.04.19-08.52.31:414][824]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.108090s)
+[2017.04.19-08.52.31:518][824]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.19-08.52.31:547][824]LogInit: FAudioDevice initialized.
+[2017.04.19-08.52.31:591][824]LogLoad: Game class is 'TefMineCraftGameMode'
+[2017.04.19-08.52.31:594][824]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.19-01.52.31
+[2017.04.19-08.52.31:594][824]LogWorld: Bringing up level for play took: 0.001417
+[2017.04.19-08.52.31:603][824]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.395
+[2017.04.19-08.52.31:603][824]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-08.53.04:581][681]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.089566 > MaxSimulationTimeStep (0.050) for 'FirstPersonCharacter_C_0', movement 'Walking'
+[2017.04.19-08.54.05:369][865]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-08.54.05:500][865]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-08.58.10:739][119]Recompiling SimplexNoise...
+[2017.04.19-08.58.10:739][119]Recompiling TefMineCraft...
+[2017.04.19-08.58.10:739][119]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe TefMineCraft -ModuleWithSuffix SimplexNoise 8333 -ModuleWithSuffix TefMineCraft 9241 Win64 Development -editorrecompile -canskiplink "C:/Users/Liam/Documents/Unreal Projects/TefMineCraft/TefMineCraft.uproject" ]
+[2017.04.19-08.58.10:741][119]Warning: Starting HotReload took  0.1s.
+[2017.04.19-08.59.54:667][558]CompilerResultsLog: New page: Compilation - Apr 18, 2017, 6:59:54 PM
+[2017.04.19-08.59.54:667][558]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.04.19-08.59.54:678][558]CompilerResultsLog: Info Parsing headers for TefMineCraftEditor
+[2017.04.19-08.59.54:678][558]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Liam\Documents\Unreal Projects\TefMineCraft\TefMineCraft.uproject" "C:\Users\Liam\Documents\Unreal Projects\TefMineCraft\Intermediate\Build\Win64\TefMineCraftEditor\Development\TefMineCraftEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.04.19-08.59.54:678][558]CompilerResultsLog: Info Reflection code generated for TefMineCraftEditor in 6.5629377 seconds
+[2017.04.19-08.59.54:678][558]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.04.19-08.59.54:678][558]CompilerResultsLog: Info VoxelActor.cpp
+[2017.04.19-08.59.54:678][558]CompilerResultsLog: Info [2/3] Link UE4Editor-TefMineCraft-9241.dll
+[2017.04.19-08.59.54:678][558]CompilerResultsLog: Info [3/3] Link UE4Editor-TefMineCraft-9241.lib
+[2017.04.19-08.59.54:678][558]CompilerResultsLog: Info    Creating library C:\Users\Liam\Documents\Unreal Projects\TefMineCraft\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TefMineCraft-9241.lib and object C:\Users\Liam\Documents\Unreal Projects\TefMineCraft\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TefMineCraft-9241.exp
+[2017.04.19-08.59.54:678][558]CompilerResultsLog: Info    Creating library C:\Users\Liam\Documents\Unreal Projects\TefMineCraft\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TefMineCraft-9241.suppressed.lib and object C:\Users\Liam\Documents\Unreal Projects\TefMineCraft\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TefMineCraft-9241.suppressed.exp
+[2017.04.19-08.59.54:678][558]CompilerResultsLog: Info Total build time: 100.59 seconds (Local executor: 54.71 seconds)
+[2017.04.19-08.59.54:678][558]LogMainFrame: MainFrame: Module compiling took 103.945 seconds
+[2017.04.19-08.59.58:275][558]LogContentBrowser: Native class hierarchy updated for 'TefMineCraft' in 0.0025 seconds. Added 6 classes and 2 folders.
+[2017.04.19-08.59.58:279][558]Display: HotReload successful (16 functions remapped  0 scriptstructs remapped)
+[2017.04.19-08.59.58:796][558]LogContentBrowser: Native class hierarchy populated in 0.0172 seconds. Added 2289 classes and 468 folders.
+[2017.04.19-08.59.58:796][558]Display: HotReload took 108.1s.
+[2017.04.19-09.00.01:432][869]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.19-09.00.01:459][869]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-09.00.01:460][869]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.19-09.00.01:460][869]PIE: New page: PIE session: FirstPersonExampleMap (Apr 18, 2017, 7:00:01 PM)
+[2017.04.19-09.00.01:460][869]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.19-09.00.01:546][869]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085747s)
+[2017.04.19-09.00.01:547][869]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.19-09.00.01:547][869]LogPlayLevel: PIE: World Init took: (0.001268s)
+[2017.04.19-09.00.01:547][869]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.087326s)
+[2017.04.19-09.00.01:629][869]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.19-09.00.01:704][869]LogInit: FAudioDevice initialized.
+[2017.04.19-09.00.01:737][869]LogLoad: Game class is 'TefMineCraftGameMode'
+[2017.04.19-09.00.01:740][869]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.19-02.00.01
+[2017.04.19-09.00.01:740][869]LogWorld: Bringing up level for play took: 0.001429
+[2017.04.19-09.00.01:741][869]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.257
+[2017.04.19-09.00.01:741][869]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-09.00.38:733][531]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.054232 > MaxSimulationTimeStep (0.050) for 'FirstPersonCharacter_C_0', movement 'Walking'
+[2017.04.19-09.00.55:320][878]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-09.00.55:410][878]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-09.07.19:741][458]LogUProjectInfo: Found projects:
+[2017.04.19-09.07.31:294][633]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.04.19-09.07.32:714][633]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.04.19-09.07.34:188][634]Cmd: QUIT_EDITOR
+[2017.04.19-09.07.39:555][634]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.19-09.07.40:089][634]LogExit: Preparing to exit.
+[2017.04.19-09.07.52:482][634]LogDirectoryWatcher: A directory notification for 'C:/Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/' was aborted.
+[2017.04.19-09.07.59:748][634]LogHoudiniEngine: HAPI Synchronous Deletion of  Started. HoudiniAsset = 0x0, 
+[2017.04.19-09.07.59:947][634]LogExit: Editor shut down
+[2017.04.19-09.07.59:963][634]LogExit: Transaction tracking system shut down
+[2017.04.19-09.08.12:013][634]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.19-09.08.12:014][634]LogExit: Object subsystem successfully closed.
+[2017.04.19-09.08.13:706][634]LogD3D11RHI: Shutdown
+[2017.04.19-09.08.13:731][634]LogD3D11RHI: CleanupD3DDevice
+[2017.04.19-09.08.16:483][634]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.04.19-09.08.20:023][634]LogModuleManager: Shutting down and abandoning module TefMineCraft (518)
+[2017.04.19-09.08.20:023][634]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (513)
+[2017.04.19-09.08.20:074][634]LogModuleManager: Shutting down and abandoning module BlueprintGraph (510)
+[2017.04.19-09.08.20:074][634]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (508)
+[2017.04.19-09.08.20:209][634]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (506)
+[2017.04.19-09.08.20:222][634]LogModuleManager: Shutting down and abandoning module CrashTracker (504)
+[2017.04.19-09.08.20:247][634]LogModuleManager: Shutting down and abandoning module SceneOutliner (502)
+[2017.04.19-09.08.20:247][634]LogModuleManager: Shutting down and abandoning module AddContentDialog (500)
+[2017.04.19-09.08.20:541][634]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.04.19-09.08.21:189][634]LogModuleManager: Shutting down and abandoning module WidgetCarousel (499)
+[2017.04.19-09.08.21:189][634]LogModuleManager: Shutting down and abandoning module EditorWidgets (496)
+[2017.04.19-09.08.21:204][634]LogModuleManager: Shutting down and abandoning module CollectionManager (494)
+[2017.04.19-09.08.21:295][634]LogDirectoryWatcher: A directory notification for 'C:/Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/Collections/' was aborted.
+[2017.04.19-09.08.21:295][634]LogDirectoryWatcher: A directory notification for 'C:/Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/Developers/Liam/Collections/' was aborted.
+[2017.04.19-09.08.21:295][634]LogDirectoryWatcher: A directory notification for 'C:/Users/Liam/Documents/Unreal Projects/TefMineCraft/Saved/Collections/' was aborted.
+[2017.04.19-09.08.21:295][634]LogModuleManager: Shutting down and abandoning module StatsViewer (492)
+[2017.04.19-09.08.21:408][634]LogModuleManager: Shutting down and abandoning module FoliageEdit (490)
+[2017.04.19-09.08.21:436][634]LogModuleManager: Shutting down and abandoning module LandscapeEditor (488)
+[2017.04.19-09.08.21:764][634]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (486)
+[2017.04.19-09.08.21:764][634]LogModuleManager: Shutting down and abandoning module ActorPickerMode (484)
+[2017.04.19-09.08.21:764][634]LogModuleManager: Shutting down and abandoning module GeometryMode (482)
+[2017.04.19-09.08.21:764][634]LogModuleManager: Shutting down and abandoning module TextureAlignMode (480)
+[2017.04.19-09.08.21:764][634]LogModuleManager: Shutting down and abandoning module BspMode (478)
+[2017.04.19-09.08.21:841][634]LogModuleManager: Shutting down and abandoning module HardwareSurvey (476)
+[2017.04.19-09.08.21:870][634]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (474)
+[2017.04.19-09.08.21:890][634]LogModuleManager: Shutting down and abandoning module AutomationWorker (472)
+[2017.04.19-09.08.21:918][634]LogModuleManager: Shutting down and abandoning module HoudiniEngineEditor (470)
+[2017.04.19-09.08.21:918][634]LogHoudiniEngineEditor: Shutting down the Houdini Engine Editor module.
+[2017.04.19-09.08.22:083][634]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (468)
+[2017.04.19-09.08.22:227][634]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (466)
+[2017.04.19-09.08.22:400][634]LogModuleManager: Shutting down and abandoning module PlacementMode (465)
+[2017.04.19-09.08.22:417][634]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (462)
+[2017.04.19-09.08.22:417][634]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (460)
+[2017.04.19-09.08.22:430][634]LogModuleManager: Shutting down and abandoning module MfMediaFactory (458)
+[2017.04.19-09.08.22:430][634]LogModuleManager: Shutting down and abandoning module MfMediaEditor (456)
+[2017.04.19-09.08.22:430][634]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (454)
+[2017.04.19-09.08.22:430][634]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (452)
+[2017.04.19-09.08.22:430][634]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (450)
+[2017.04.19-09.08.22:461][634]LogModuleManager: Shutting down and abandoning module Media (449)
+[2017.04.19-09.08.22:461][634]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (446)
+[2017.04.19-09.08.22:461][634]LogModuleManager: Shutting down and abandoning module CharacterAI (444)
+[2017.04.19-09.08.22:480][634]LogModuleManager: Shutting down and abandoning module AudioCapture (442)
+[2017.04.19-09.08.22:509][634]LogModuleManager: Shutting down and abandoning module SequenceRecorder (441)
+[2017.04.19-09.08.22:684][634]LogModuleManager: Shutting down and abandoning module SmartSnapping (438)
+[2017.04.19-09.08.22:684][634]LogModuleManager: Shutting down and abandoning module SessionServices (436)
+[2017.04.19-09.08.22:707][634]LogModuleManager: Shutting down and abandoning module ViewportSnapping (434)
+[2017.04.19-09.08.22:707][634]LogModuleManager: Shutting down and abandoning module ViewportInteraction (432)
+[2017.04.19-09.08.22:707][634]LogModuleManager: Shutting down and abandoning module LogVisualizer (430)
+[2017.04.19-09.08.22:909][634]LogModuleManager: Shutting down and abandoning module IntroTutorials (428)
+[2017.04.19-09.08.22:999][634]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (427)
+[2017.04.19-09.08.22:999][634]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (424)
+[2017.04.19-09.08.23:048][634]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (422)
+[2017.04.19-09.08.23:116][634]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (420)
+[2017.04.19-09.08.23:116][634]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (418)
+[2017.04.19-09.08.23:175][634]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (417)
+[2017.04.19-09.08.23:717][634]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (414)
+[2017.04.19-09.08.23:717][634]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (412)
+[2017.04.19-09.08.23:717][634]LogModuleManager: Shutting down and abandoning module InputBindingEditor (410)
+[2017.04.19-09.08.23:736][634]LogModuleManager: Shutting down and abandoning module NiagaraEditor (408)
+[2017.04.19-09.08.23:882][634]LogModuleManager: Shutting down and abandoning module MergeActors (406)
+[2017.04.19-09.08.23:909][634]LogModuleManager: Shutting down and abandoning module SizeMap (404)
+[2017.04.19-09.08.23:938][634]LogModuleManager: Shutting down and abandoning module TreeMap (402)
+[2017.04.19-09.08.23:995][634]LogModuleManager: Shutting down and abandoning module ReferenceViewer (400)
+[2017.04.19-09.08.24:032][634]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (398)
+[2017.04.19-09.08.24:185][634]LogModuleManager: Shutting down and abandoning module LocalizationService (397)
+[2017.04.19-09.08.24:222][634]LogModuleManager: Shutting down and abandoning module HardwareTargeting (394)
+[2017.04.19-09.08.24:259][634]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (392)
+[2017.04.19-09.08.24:308][634]LogModuleManager: Shutting down and abandoning module UndoHistory (390)
+[2017.04.19-09.08.24:352][634]LogModuleManager: Shutting down and abandoning module UserFeedback (388)
+[2017.04.19-09.08.24:352][634]LogModuleManager: Shutting down and abandoning module XmlParser (386)
+[2017.04.19-09.08.24:363][634]LogModuleManager: Shutting down and abandoning module Blutility (384)
+[2017.04.19-09.08.24:371][634]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (382)
+[2017.04.19-09.08.24:397][634]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (381)
+[2017.04.19-09.08.24:398][634]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (378)
+[2017.04.19-09.08.24:424][634]LogModuleManager: Shutting down and abandoning module SettingsEditor (376)
+[2017.04.19-09.08.24:485][634]LogModuleManager: Shutting down and abandoning module ProjectLauncher (374)
+[2017.04.19-09.08.24:549][634]LogModuleManager: Shutting down and abandoning module SessionFrontend (372)
+[2017.04.19-09.08.24:567][634]LogModuleManager: Shutting down and abandoning module ProfilerClient (370)
+[2017.04.19-09.08.24:596][634]LogModuleManager: Shutting down and abandoning module DeviceManager (368)
+[2017.04.19-09.08.24:640][634]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (367)
+[2017.04.19-09.08.24:702][634]LogModuleManager: Shutting down and abandoning module AutomationController (364)
+[2017.04.19-09.08.24:778][634]LogModuleManager: Shutting down and abandoning module AutomationWindow (362)
+[2017.04.19-09.08.24:859][634]LogModuleManager: Shutting down and abandoning module Layers (360)
+[2017.04.19-09.08.24:957][634]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (358)
+[2017.04.19-09.08.24:994][634]LogModuleManager: Shutting down and abandoning module DetailCustomizations (356)
+[2017.04.19-09.08.25:184][634]LogModuleManager: Shutting down and abandoning module PackagesDialog (354)
+[2017.04.19-09.08.25:316][634]LogModuleManager: Shutting down and abandoning module Persona (352)
+[2017.04.19-09.08.25:371][634]LogModuleManager: Shutting down and abandoning module AnimGraph (351)
+[2017.04.19-09.08.25:371][634]LogModuleManager: Shutting down and abandoning module Kismet (348)
+[2017.04.19-09.08.25:571][634]LogModuleManager: Shutting down and abandoning module GraphEditor (346)
+[2017.04.19-09.08.25:571][634]LogModuleManager: Shutting down and abandoning module ClassViewer (344)
+[2017.04.19-09.08.25:622][634]LogModuleManager: Shutting down and abandoning module Toolbox (342)
+[2017.04.19-09.08.25:687][634]LogModuleManager: Shutting down and abandoning module ModuleUI (340)
+[2017.04.19-09.08.25:718][634]LogModuleManager: Shutting down and abandoning module MovieSceneTools (338)
+[2017.04.19-09.08.25:880][634]LogModuleManager: Shutting down and abandoning module OutputLog (336)
+[2017.04.19-09.08.25:921][634]LogModuleManager: Shutting down and abandoning module GammaUI (334)
+[2017.04.19-09.08.26:007][634]LogModuleManager: Shutting down and abandoning module Documentation (332)
+[2017.04.19-09.08.26:007][634]LogModuleManager: Shutting down and abandoning module Niagara (330)
+[2017.04.19-09.08.26:007][634]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (328)
+[2017.04.19-09.08.26:072][634]LogModuleManager: Shutting down and abandoning module AnalyticsET (326)
+[2017.04.19-09.08.26:072][634]LogModuleManager: Shutting down and abandoning module PortalServices (324)
+[2017.04.19-09.08.26:072][634]LogModuleManager: Shutting down and abandoning module PortalRpc (322)
+[2017.04.19-09.08.26:072][634]LogModuleManager: Shutting down and abandoning module MessagingRpc (320)
+[2017.04.19-09.08.26:072][634]LogModuleManager: Shutting down and abandoning module AIModule (318)
+[2017.04.19-09.08.26:115][634]LogModuleManager: Shutting down and abandoning module GameplayDebugger (317)
+[2017.04.19-09.08.26:214][634]LogModuleManager: Shutting down and abandoning module AITestSuite (315)
+[2017.04.19-09.08.26:251][634]LogModuleManager: Shutting down and abandoning module ProfilerService (312)
+[2017.04.19-09.08.26:486][634]LogModuleManager: Shutting down and abandoning module TaskGraph (310)
+[2017.04.19-09.08.26:623][634]LogModuleManager: Shutting down and abandoning module SteamVRController (308)
+[2017.04.19-09.08.26:623][634]LogModuleManager: Shutting down and abandoning module SteamVR (306)
+[2017.04.19-09.08.26:691][634]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (304)
+[2017.04.19-09.08.26:691][634]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (302)
+[2017.04.19-09.08.26:691][634]LogModuleManager: Shutting down and abandoning module OculusLibrary (300)
+[2017.04.19-09.08.26:691][634]LogModuleManager: Shutting down and abandoning module OculusInput (298)
+[2017.04.19-09.08.26:691][634]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (296)
+[2017.04.19-09.08.26:691][634]LogModuleManager: Shutting down and abandoning module HoudiniEngineRuntime (294)
+[2017.04.19-09.08.26:797][634]LogHoudiniEngine: Shutting down the Houdini Engine module.
+[2017.04.19-09.08.32:515][634]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (292)
+[2017.04.19-09.08.32:515][634]LogModuleManager: Shutting down and abandoning module CableComponent (290)
+[2017.04.19-09.08.32:538][634]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (288)
+[2017.04.19-09.08.32:538][634]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (284)
+[2017.04.19-09.08.32:719][634]LogModuleManager: Shutting down and abandoning module HTML5Networking (282)
+[2017.04.19-09.08.32:719][634]LogModuleManager: Shutting down and abandoning module AlembicImporter (280)
+[2017.04.19-09.08.32:750][634]LogModuleManager: Shutting down and abandoning module AlembicLibrary (279)
+[2017.04.19-09.08.32:862][634]LogModuleManager: Shutting down and abandoning module GeometryCache (278)
+[2017.04.19-09.08.32:867][634]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (277)
+[2017.04.19-09.08.32:867][634]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (272)
+[2017.04.19-09.08.32:867][634]LogModuleManager: Shutting down and abandoning module SuperSearch (271)
+[2017.04.19-09.08.32:867][634]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (268)
+[2017.04.19-09.08.32:880][634]LogModuleManager: Shutting down and abandoning module PluginBrowser (266)
+[2017.04.19-09.08.33:106][634]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (264)
+[2017.04.19-09.08.33:196][634]LogModuleManager: Shutting down and abandoning module EpicSurvey (262)
+[2017.04.19-09.08.33:310][634]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (260)
+[2017.04.19-09.08.33:353][634]LogModuleManager: Shutting down and abandoning module DesktopPlatform (259)
+[2017.04.19-09.08.33:353][634]LogModuleManager: Shutting down and abandoning module UObjectPlugin (256)
+[2017.04.19-09.08.33:353][634]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (254)
+[2017.04.19-09.08.33:624][634]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (252)
+[2017.04.19-09.08.33:863][634]LogModuleManager: Shutting down and abandoning module GitSourceControl (250)
+[2017.04.19-09.08.34:014][634]LogModuleManager: Shutting down and abandoning module SourceControl (249)
+[2017.04.19-09.08.34:101][634]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (246)
+[2017.04.19-09.08.34:108][634]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (244)
+[2017.04.19-09.08.34:108][634]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (242)
+[2017.04.19-09.08.34:114][634]LogModuleManager: Shutting down and abandoning module Paper2DEditor (240)
+[2017.04.19-09.08.34:188][634]LogModuleManager: Shutting down and abandoning module MeshPaint (239)
+[2017.04.19-09.08.34:198][634]LogModuleManager: Shutting down and abandoning module LevelEditor (237)
+[2017.04.19-09.08.34:471][634]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (236)
+[2017.04.19-09.08.34:588][634]LogModuleManager: Shutting down and abandoning module MainFrame (234)
+[2017.04.19-09.08.34:588][634]LogModuleManager: Shutting down and abandoning module HotReload (233)
+[2017.04.19-09.08.34:588][634]LogDirectoryWatcher: A directory notification for 'C:/Users/Liam/Documents/Unreal Projects/TefMineCraft/Binaries/Win64' was aborted.
+[2017.04.19-09.08.34:637][634]LogModuleManager: Shutting down and abandoning module ContentBrowser (229)
+[2017.04.19-09.08.34:638][634]LogModuleManager: Shutting down and abandoning module SimplexNoise (224)
+[2017.04.19-09.08.34:638][634]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.04.19-09.08.34:669][634]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.04.19-09.08.34:669][634]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.04.19-09.08.34:669][634]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.04.19-09.08.34:770][634]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.04.19-09.08.34:907][634]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.04.19-09.08.34:996][634]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.04.19-09.08.35:013][634]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.04.19-09.08.35:013][634]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.04.19-09.08.35:013][634]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.04.19-09.08.35:022][634]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.04.19-09.08.35:023][634]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.04.19-09.08.35:136][634]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.04.19-09.08.35:136][634]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.04.19-09.08.35:136][634]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.04.19-09.08.35:161][634]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.04.19-09.08.35:174][634]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.04.19-09.08.35:174][634]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.04.19-09.08.35:214][634]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.04.19-09.08.35:225][634]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.04.19-09.08.35:241][634]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.04.19-09.08.35:269][634]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.04.19-09.08.35:315][634]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.04.19-09.08.35:335][634]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.04.19-09.08.35:369][634]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.04.19-09.08.35:369][634]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.04.19-09.08.35:399][634]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.04.19-09.08.35:448][634]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.04.19-09.08.35:448][634]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.04.19-09.08.35:480][634]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.04.19-09.08.35:495][634]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.04.19-09.08.35:495][634]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.04.19-09.08.35:495][634]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.04.19-09.08.35:495][634]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.04.19-09.08.35:495][634]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.04.19-09.08.36:211][634]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.04.19-09.08.36:212][634]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/' was aborted.
+[2017.04.19-09.08.36:212][634]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.04.19-09.08.36:212][634]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/' was aborted.
+[2017.04.19-09.08.36:216][634]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.04.19-09.08.36:226][634]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.04.19-09.08.36:230][634]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.04.19-09.08.36:239][634]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.04.19-09.08.36:289][634]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.04.19-09.08.36:291][634]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.04.19-09.08.36:297][634]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.04.19-09.08.36:302][634]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.04.19-09.08.36:324][634]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.04.19-09.08.36:389][634]LogDerivedDataCache: Shutdown
+[2017.04.19-09.08.36:389][634]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.04.19-09.08.36:406][634]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.04.19-09.08.36:450][634]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.04.19-09.08.36:471][634]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.04.19-09.08.36:478][634]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.04.19-09.08.36:545][634]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.04.19-09.08.36:553][634]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.04.19-09.08.36:558][634]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.04.19-09.08.36:560][634]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.04.19-09.08.36:578][634]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.04.19-09.08.36:578][634]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.04.19-09.08.36:578][634]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.04.19-09.08.36:591][634]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.04.19-09.08.36:610][634]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.04.19-09.08.36:625][634]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.04.19-09.08.36:641][634]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.04.19-09.08.36:666][634]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.04.19-09.08.36:666][634]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.04.19-09.08.36:670][634]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.04.19-09.08.36:696][634]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.04.19-09.08.36:741][634]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.04.19-09.08.36:741][634]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.04.19-09.08.36:749][634]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.04.19-09.08.36:749][634]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.04.19-09.08.36:749][634]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.04.19-09.08.36:767][634]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.04.19-09.08.36:767][634]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.04.19-09.08.36:767][634]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.04.19-09.08.36:774][634]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.04.19-09.08.36:801][634]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.04.19-09.08.36:801][634]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.04.19-09.08.36:801][634]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.04.19-09.08.36:855][634]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.04.19-09.08.36:884][634]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.04.19-09.08.36:884][634]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.04.19-09.08.36:906][634]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.04.19-09.08.36:906][634]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.04.19-09.08.36:914][634]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.04.19-09.08.36:932][634]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.04.19-09.08.36:954][634]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.04.19-09.08.36:954][634]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.04.19-09.08.36:954][634]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.04.19-09.08.36:954][634]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.04.19-09.08.36:978][634]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.04.19-09.08.36:978][634]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.04.19-09.08.36:978][634]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.04.19-09.08.36:978][634]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.04.19-09.08.36:978][634]LogOnline:Display: Unloading online subsystem: NULL
+[2017.04.19-09.08.37:009][634]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.04.19-09.08.37:041][634]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.04.19-09.08.37:056][634]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.04.19-09.08.37:056][634]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2B9D3BCB-4B88-8BA8-6BF3-209D34B626FA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=3c53aeb14f8381cf589af9a05a045162%7C191bcd9e71e141a7a207a951597e632a%7C6892023d-28ec-4f87-8958-26e7706dbce6&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.04.19-09.08.37:094][634]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.04.19-09.08.37:137][634]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.04.19-09.08.37:171][634]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.04.19-09.08.37:172][634]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.04.19-09.08.37:172][634]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.04.19-09.08.37:178][634]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.04.19-09.08.37:274][634]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.04.19-09.08.37:323][634]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.04.19-09.08.37:323][634]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.04.19-09.08.37:343][634]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.04.19-09.08.37:343][634]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.04.19-09.08.37:343][634]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.04.19-09.08.37:343][634]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.04.19-09.08.37:352][634]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.04.19-09.08.37:352][634]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.04.19-09.08.37:352][634]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.04.19-09.08.37:540][634]LogExit: Exiting.
+[2017.04.19-09.08.37:957][634]Log file closed, 04/19/17 02:08:37

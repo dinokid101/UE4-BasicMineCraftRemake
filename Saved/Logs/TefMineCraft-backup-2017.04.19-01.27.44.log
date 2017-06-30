@@ -1,0 +1,482 @@
+﻿Log file open, 04/18/17 22:37:01
+LogInit:Display: Running engine for game: TefMineCraft
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-403225751) SRandInit(-403225751).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 1.747400
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.19-05.37.03:959][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.19-05.37.03:959][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.19-05.37.04:064][  0]LogInit: Computer: ULTIMATESKIBUM
+[2017.04.19-05.37.04:064][  0]LogInit: User: Liam
+[2017.04.19-05.37.04:064][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.19-05.37.04:064][  0]LogInit: High frequency timer resolution =3.906391 MHz
+[2017.04.19-05.37.04:068][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.04.19-05.37.04:071][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.19-05.37.04:071][  0]LogMemory: Process Physical Memory: 264.14 MB used, 264.14 MB peak
+[2017.04.19-05.37.04:071][  0]LogMemory: Process Virtual Memory: 262.64 MB used, 262.64 MB peak
+[2017.04.19-05.37.04:071][  0]LogMemory: Physical Memory: 5318.62 MB used,  2820.38 MB free, 8139.00 MB total
+[2017.04.19-05.37.04:071][  0]LogMemory: Virtual Memory: 645.13 MB used,  2820.38 MB free, 134217728.00 MB total
+[2017.04.19-05.37.05:361][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.04.19-05.37.11:865][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.19-05.37.12:479][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 770' (Feature Level 11_0)
+[2017.04.19-05.37.12:479][  0]LogD3D11RHI:       4063/0/4069 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.19-05.37.12:518][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.19-05.37.12:518][  0]LogD3D11RHI:       0/0/4069 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.19-05.37.12:518][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.19-05.37.12:542][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.19-05.37.12:542][  0]LogD3D11RHI:     GPU DeviceId: 0x1184 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.19-05.37.12:542][  0]LogWindows: EnumDisplayDevices:
+[2017.04.19-05.37.12:542][  0]LogWindows:    0. 'NVIDIA GeForce GTX 770' (P:1 D:1)
+[2017.04.19-05.37.12:542][  0]LogWindows:    1. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.04.19-05.37.12:543][  0]LogWindows:    2. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.04.19-05.37.12:543][  0]LogWindows:    3. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.04.19-05.37.12:543][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.04.19-05.37.12:543][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 770
+[2017.04.19-05.37.12:543][  0]LogD3D11RHI:   Driver Version: 381.65 (internal:22.21.13.8165, unified:381.65)
+[2017.04.19-05.37.12:543][  0]LogD3D11RHI:      Driver Date: 3-31-2017
+[2017.04.19-05.37.12:543][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.19-05.37.13:028][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.04.19-05.37.13:044][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.19-05.37.13:742][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.04.19-05.37.13:919][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Intermediate/Shaders/WorkingDirectory/9080/).
+[2017.04.19-05.37.13:919][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Liam/AppData/Local/Temp/UnrealShaderWorkingDir/85490E8C49247D740E17858F43B4D59B/'.
+[2017.04.19-05.37.13:919][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.19-05.37.21:590][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.19-05.37.21:701][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.19-05.37.21:800][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.19-05.37.21:899][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.19-05.37.22:026][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.19-05.37.22:125][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.19-05.37.22:224][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.19-05.37.22:323][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.19-05.37.22:427][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.19-05.37.22:534][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.19-05.37.22:637][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.19-05.37.22:734][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.19-05.37.22:832][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.19-05.37.22:930][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.19-05.37.23:028][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.19-05.37.23:234][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.19-05.37.23:234][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.19-05.37.23:308][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.19-05.37.23:589][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.19-05.37.23:655][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.19-05.37.23:752][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.19-05.37.23:852][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.19-05.37.23:949][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.19-05.37.24:075][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.19-05.37.24:079][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.19-05.37.25:969][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.19-05.37.26:702][  0]LogDerivedDataCache: Loaded boot cache 0.72s 52MB C:/Users/Liam/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.19-05.37.26:702][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Liam/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.19-05.37.26:703][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.19-05.37.26:703][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.19-05.37.26:703][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.19-05.37.26:703][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.19-05.37.26:804][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.19-05.37.26:850][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Liam/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.19-05.37.27:149][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.19-05.37.27:571][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.19-05.37.27:571][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.19-05.37.41:862][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.19-05.37.41:931][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.19-05.37.43:233][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.19-05.37.43:356][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.19-05.37.43:503][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.19-05.37.43:503][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.19-05.37.43:503][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.19-05.37.50:399][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: tefminecraft, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1899195743
+[2017.04.19-05.37.50:632][  0]LogAssetRegistry: FAssetRegistry took 0.0231 seconds to start up
+[2017.04.19-05.37.51:282][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.515437 seconds
+[2017.04.19-05.37.51:401][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.19-05.37.51:401][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.04.19-05.37.51:401][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.19-05.37.51:674][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.19-05.38.10:258][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.19-05.38.10:352][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.19-05.38.15:689][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.19-05.38.16:999][  0]SourceControl: Info Source control is disabled
+[2017.04.19-05.38.17:024][  0]SourceControl: Info Source control is disabled
+[2017.04.19-05.38.17:154][  0]SourceControl: Info Source control is disabled
+[2017.04.19-05.38.17:251][  0]SourceControl: Info Source control is disabled
+[2017.04.19-05.38.19:616][  0]LogHoudiniEngine: Starting the Houdini Engine module.
+[2017.04.19-05.38.19:666][  0]LogHoudiniEngine: Loaded libHAPIL.dll from Registry path C:\Program Files\Side Effects Software\Houdini 16.0.557/bin
+[2017.04.19-05.38.19:686][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/houdini_logo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.19-05.38.19:767][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/houdini_default_material.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.19-05.38.19:849][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/houdini_bgeo_import.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.19-05.38.36:630][  0]LogHoudiniEngine: Successfully intialized the Houdini Engine API module.
+[2017.04.19-05.38.38:158][  0]LogEngine: Initializing Engine...
+[2017.04.19-05.38.38:173][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.19-05.38.39:525][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.19-05.38.39:679][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.19-05.38.39:793][  0]LogInit: FAudioDevice initialized.
+[2017.04.19-05.38.39:851][  0]LogDerivedDataCache: Saved boot cache 0.06s 52MB C:/Users/Liam/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.19-05.38.39:906][  0]LogInit: Texture streaming: Enabled
+[2017.04.19-05.38.40:230][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.19-05.38.40:568][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.19-05.38.41:164][  0]LogInit: Transaction tracking system initialized
+[2017.04.19-05.38.45:937][  0]BlueprintLog: New page: Editor Load
+[2017.04.19-05.38.50:728][  0]LocalizationService: Info Localization service is disabled
+[2017.04.19-05.38.54:981][  0]LogConsoleResponse:Display: 
+[2017.04.19-05.38.59:664][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/' took 0.07s
+[2017.04.19-05.38.59:664][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.19-05.38.59:678][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.19-05.39.05:964][  0]LogHoudiniEngineEditor: Starting the Houdini Engine Editor module.
+[2017.04.19-05.39.08:299][  0]SourceControl: Info Source control is disabled
+[2017.04.19-05.39.08:337][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.19-05.39.08:364][  0]LightingResults: New page: Lighting Build
+[2017.04.19-05.39.09:155][  0]MapCheck: New page: Map Check
+[2017.04.19-05.39.09:155][  0]LightingResults: New page: Lighting Build
+[2017.04.19-05.39.13:372][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.19-05.39.14:866][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.19-05.39.14:930][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.19-05.39.15:065][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 134.872ms to complete.
+[2017.04.19-05.39.15:065][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 6.742
+[2017.04.19-05.39.22:220][  0]LogCollectionManager: Loaded 0 collections in 0.002698 seconds
+[2017.04.19-05.39.22:845][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Documents/Unreal Projects/TefMineCraft/Saved/Collections/' took 0.01s
+[2017.04.19-05.39.22:845][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/Developers/Liam/Collections/' took 0.01s
+[2017.04.19-05.39.22:845][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/Collections/' took 0.01s
+[2017.04.19-05.39.22:845][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.04.19-05.39.23:056][  0]LogContentBrowser: Native class hierarchy populated in 0.1797 seconds. Added 2286 classes and 464 folders.
+[2017.04.19-05.39.23:491][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.015 s
+[2017.04.19-05.39.23:567][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.041 s
+[2017.04.19-05.39.23:786][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0027 seconds. Added 0 classes and 0 folders.
+[2017.04.19-05.39.29:627][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0025 seconds. Added 0 classes and 0 folders.
+[2017.04.19-05.39.30:104][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0026 seconds. Added 1 classes and 2 folders.
+[2017.04.19-05.39.34:653][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.19-05.39.35:834][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.19-05.39.36:279][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0027 seconds. Added 1 classes and 2 folders.
+[2017.04.19-05.39.36:280][  0]LogLoad: (Engine Initialization) Total time: 165.12 seconds
+[2017.04.19-05.39.36:280][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.04 seconds
+[2017.04.19-05.39.36:280][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.19-05.39.36:280][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.19-05.39.36:334][  0]LogOcInput: OculusInput pre-init called
+[2017.04.19-05.39.36:697][  0]LogContentStreaming: Texture pool size now 800 MB
+[2017.04.19-05.39.37:098][  0]LogSlate: Took 0.026958 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.19-05.39.37:160][  0]LogSlate: Took 0.017773 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.19-05.39.37:320][  0]LogSlate: Took 0.025290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.19-05.39.39:893][  0]LogRenderer: Reallocating scene render targets to support 1164x580 NumSamples 1 (Frame:2).
+[2017.04.19-05.39.42:617][  1]LogSlate: Took 0.036248 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.19-05.39.42:831][  2]LogSlate: Took 0.000421 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.19-05.39.42:969][  4]LogAssetRegistry: Asset discovery search completed in 112.3576 seconds
+[2017.04.19-05.39.42:992][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.022362 seconds (found 0 objects)
+[2017.04.19-05.39.42:992][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.022954 seconds (updated 0 objects)
+[2017.04.19-05.40.19:868][305]LogSlate: Took 0.000261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.19-05.41.32:679][674]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Liam/Documents/Unreal Projects/TefMineCraft/Source/TefMineCraft/VoxelActor.h'
+[2017.04.19-05.41.35:998][674]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Liam/Documents/Unreal Projects/TefMineCraft/Source/TefMineCraft/VoxelActor.cpp'
+[2017.04.19-07.03.29:662][820]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.19-07.03.29:747][820]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-07.03.29:754][820]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.19-07.03.29:819][820]PIE: New page: PIE session: FirstPersonExampleMap (Apr 18, 2017, 5:03:29 PM)
+[2017.04.19-07.03.29:842][820]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.19-07.03.30:016][820]LogPlayLevel: PIE: StaticDuplicateObject took: (0.173083s)
+[2017.04.19-07.03.30:020][820]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.19-07.03.30:027][820]LogPlayLevel: PIE: World Init took: (0.011385s)
+[2017.04.19-07.03.30:033][820]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.193681s)
+[2017.04.19-07.03.30:145][820]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.19-07.03.30:167][820]LogInit: FAudioDevice initialized.
+[2017.04.19-07.03.30:436][820]LogLoad: Game class is 'TefMineCraftGameMode'
+[2017.04.19-07.03.30:560][820]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.19-00.03.30
+[2017.04.19-07.03.30:627][820]LogWorld: Bringing up level for play took: 0.084444
+[2017.04.19-07.03.30:792][820]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0036 seconds. Added 11 classes and 0 folders.
+[2017.04.19-07.03.30:855][820]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.857
+[2017.04.19-07.03.30:856][820]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-07.03.57:026][820]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall missing bUsedWithInstancedStaticMeshes=True! Default Material will be used in game.
+[2017.04.19-07.03.57:026][820]LogMaterial:Warning:      The material will recompile every editor launch until resaved.
+[2017.04.19-07.04.24:877][327]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-07.04.25:108][327]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-07.19.31:770][574]LogSlate: Took 0.030376 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.19-07.19.36:004][574]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0755 seconds. Added 112 classes and 0 folders.
+[2017.04.19-07.19.42:816][574]LogSlate: Took 0.049486 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.19-07.19.44:691][575]LogSlate: Took 0.049112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.04.19-07.20.52:335][547]LogTexture:Display: Building textures: T_FieldGrass_01_D (AutoDXT, 1024X1024) - 107 MB total VRAM
+[2017.04.19-07.20.53:611][547]LogTexture:Display: Building textures: T_FieldGrass_02_M (AutoDXT, 1024X1024) - 107 MB total VRAM
+[2017.04.19-07.20.54:330][547]LogMaterial: Missing cached shader map for material M_FieldGrass_01, compiling. 
+[2017.04.19-07.20.54:477][547]LogTemp:Display: Added material ShaderMap 0x00000218265E6E80 with Material 0x000002181571CB80 to ShaderMapsBeingCompiled
+[2017.04.19-07.20.54:865][547]LogTemp:Display: Kicking off shader compilation for M_FieldGrass_01, GameThreadShaderMap 0x00000218265E6E80
+[2017.04.19-07.20.54:983][547]LogStaticMesh: Building static mesh SM_FieldGrass_01...
+[2017.04.19-07.20.55:308][547]LogStaticMesh: Built static mesh [0.38s] /Game/KiteDemo/Environments/Foliage/Grass/FieldGrass/SM_FieldGrass_01.SM_FieldGrass_01
+[2017.04.19-07.20.55:840][547]LogMaterial: Missing cached shader map for material M_FieldGrass_01, compiling. 
+[2017.04.19-07.20.55:843][547]LogTemp:Display: Added material ShaderMap 0x0000021814457900 with Material 0x0000021824E7A500 to ShaderMapsBeingCompiled
+[2017.04.19-07.20.55:980][547]LogTemp:Display: Kicking off shader compilation for M_FieldGrass_01, GameThreadShaderMap 0x0000021814457900
+[2017.04.19-07.20.56:185][547]LogMaterial: Missing cached shader map for material M_FieldGrass_01, compiling. 
+[2017.04.19-07.20.56:187][547]LogTemp:Display: Added material ShaderMap 0x0000021827174B80 with Material 0x0000021824E79180 to ShaderMapsBeingCompiled
+[2017.04.19-07.20.56:320][547]LogTemp:Display: Kicking off shader compilation for M_FieldGrass_01, GameThreadShaderMap 0x0000021827174B80
+[2017.04.19-07.21.01:731][749]BlueprintLog: New page: Compile BP_Voxel
+[2017.04.19-07.21.07:918][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/Blueprints/BP_Voxel" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/MyAssets/Blueprints/BP_Voxel.uasset" SILENT=true
+[2017.04.19-07.21.08:611][982]LogSavePackage: Save=274.22ms
+[2017.04.19-07.21.08:611][982]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Saved/BP_Voxel99A704A346144BE61C05AC8E6EB5434A.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/MyAssets/Blueprints/BP_Voxel.uasset'
+[2017.04.19-07.21.08:616][982]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/MyAssets/Blueprints/BP_Voxel.uasset
+[2017.04.19-07.21.10:336][100]LogTemp:Display: Finished compile of shader map 0x00000218265E6E80
+[2017.04.19-07.21.10:336][100]LogTemp:Display: Shader map M_FieldGrass_01 complete, GameThreadShaderMap 0x00000218265E6E80, marking material M_FieldGrass_01 as finished
+[2017.04.19-07.21.10:336][100]LogTemp:Display: Marking material as finished 0x000002181571CB80
+[2017.04.19-07.21.19:484][613]LogTemp:Display: Finished compile of shader map 0x0000021814457900
+[2017.04.19-07.21.19:484][613]LogTemp:Display: Shader map M_FieldGrass_01 complete, GameThreadShaderMap 0x0000021814457900, marking material M_FieldGrass_01 as finished
+[2017.04.19-07.21.19:484][613]LogTemp:Display: Marking material as finished 0x0000021824E7A500
+[2017.04.19-07.21.26:895][285]LogTemp:Display: Finished compile of shader map 0x0000021827174B80
+[2017.04.19-07.21.26:895][285]LogTemp:Display: Shader map M_FieldGrass_01 complete, GameThreadShaderMap 0x0000021827174B80, marking material M_FieldGrass_01 as finished
+[2017.04.19-07.21.26:895][285]LogTemp:Display: Marking material as finished 0x0000021824E79180
+[2017.04.19-07.21.32:326][934]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.19-07.21.32:452][934]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-07.21.32:452][934]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.19-07.21.32:484][934]PIE: New page: PIE session: FirstPersonExampleMap (Apr 18, 2017, 5:21:32 PM)
+[2017.04.19-07.21.32:492][934]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.19-07.21.32:745][934]LogPlayLevel: PIE: StaticDuplicateObject took: (0.253296s)
+[2017.04.19-07.21.32:746][934]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.19-07.21.32:751][934]LogPlayLevel: PIE: World Init took: (0.005903s)
+[2017.04.19-07.21.32:751][934]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.266994s)
+[2017.04.19-07.21.32:863][934]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.19-07.21.32:884][934]LogInit: FAudioDevice initialized.
+[2017.04.19-07.21.32:955][934]LogLoad: Game class is 'TefMineCraftGameMode'
+[2017.04.19-07.21.33:047][934]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.19-00.21.33
+[2017.04.19-07.21.33:047][934]LogWorld: Bringing up level for play took: 0.016783
+[2017.04.19-07.21.33:113][934]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 1.115
+[2017.04.19-07.21.33:113][934]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-07.22.20:753][752]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-07.22.20:870][752]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-07.29.38:039][ 93]BlueprintLog: New page: Compile BP_Voxel
+[2017.04.19-07.29.39:767][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/Blueprints/BP_Voxel" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/MyAssets/Blueprints/BP_Voxel.uasset" SILENT=true
+[2017.04.19-07.29.39:868][229]LogSavePackage: Save=80.40ms
+[2017.04.19-07.29.39:868][229]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Saved/BP_VoxelD04B92824EBEAC1F46150E93C192E91E.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/MyAssets/Blueprints/BP_Voxel.uasset'
+[2017.04.19-07.29.39:872][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/MyAssets/Blueprints/BP_Voxel.uasset
+[2017.04.19-07.29.48:616][991]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.19-07.29.48:642][991]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-07.29.48:642][991]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.19-07.29.48:643][991]PIE: New page: PIE session: FirstPersonExampleMap (Apr 18, 2017, 5:29:48 PM)
+[2017.04.19-07.29.48:643][991]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.19-07.29.48:697][991]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054752s)
+[2017.04.19-07.29.48:699][991]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.19-07.29.48:699][991]LogPlayLevel: PIE: World Init took: (0.001492s)
+[2017.04.19-07.29.48:699][991]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.056558s)
+[2017.04.19-07.29.48:755][991]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.19-07.29.48:776][991]LogInit: FAudioDevice initialized.
+[2017.04.19-07.29.48:811][991]LogLoad: Game class is 'TefMineCraftGameMode'
+[2017.04.19-07.29.48:814][991]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.19-00.29.48
+[2017.04.19-07.29.48:814][991]LogWorld: Bringing up level for play took: 0.001209
+[2017.04.19-07.29.48:815][991]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.818
+[2017.04.19-07.29.48:815][991]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-07.30.32:549][  1]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-07.30.32:632][  1]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-07.30.54:009][376]Recompiling SimplexNoise...
+[2017.04.19-07.30.54:009][376]Recompiling TefMineCraft...
+[2017.04.19-07.30.54:073][376]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe TefMineCraft -ModuleWithSuffix SimplexNoise 7376 -ModuleWithSuffix TefMineCraft 4930 Win64 Development -editorrecompile -canskiplink "C:/Users/Liam/Documents/Unreal Projects/TefMineCraft/TefMineCraft.uproject" ]
+[2017.04.19-07.30.54:716][376]Warning: Starting HotReload took  1.3s.
+[2017.04.19-07.31.53:092][821]LogRenderer: Reallocating scene render targets to support 1164x744 NumSamples 1 (Frame:16444).
+[2017.04.19-07.32.52:420][640]LogEditorTransaction: Undo Set actor scale
+[2017.04.19-07.33.02:102][703]BlueprintLog: New page: Compile BP_Voxel
+[2017.04.19-07.33.03:429][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/Blueprints/BP_Voxel" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/MyAssets/Blueprints/BP_Voxel.uasset" SILENT=true
+[2017.04.19-07.33.03:528][789]LogSavePackage: Save=85.16ms
+[2017.04.19-07.33.03:528][789]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Saved/BP_Voxel506807E04A7926DDD3080AB91C25E87E.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/MyAssets/Blueprints/BP_Voxel.uasset'
+[2017.04.19-07.33.03:532][789]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/MyAssets/Blueprints/BP_Voxel.uasset
+[2017.04.19-07.33.39:132][921]CompilerResultsLog: New page: Compilation - Apr 18, 2017, 5:33:39 PM
+[2017.04.19-07.33.39:132][921]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.04.19-07.33.39:132][921]CompilerResultsLog: Info Parsing headers for TefMineCraftEditor
+[2017.04.19-07.33.39:132][921]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Liam\Documents\Unreal Projects\TefMineCraft\TefMineCraft.uproject" "C:\Users\Liam\Documents\Unreal Projects\TefMineCraft\Intermediate\Build\Win64\TefMineCraftEditor\Development\TefMineCraftEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.04.19-07.33.39:132][921]CompilerResultsLog: Info Reflection code generated for TefMineCraftEditor in 10.271121 seconds
+[2017.04.19-07.33.39:132][921]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2017.04.19-07.33.39:132][921]CompilerResultsLog: Info VoxelActor.cpp
+[2017.04.19-07.33.39:132][921]CompilerResultsLog: Info [2/3] Link UE4Editor-TefMineCraft-4930.dll
+[2017.04.19-07.33.39:132][921]CompilerResultsLog: Info [3/3] Link UE4Editor-TefMineCraft-4930.lib
+[2017.04.19-07.33.39:132][921]CompilerResultsLog: Info    Creating library C:\Users\Liam\Documents\Unreal Projects\TefMineCraft\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TefMineCraft-4930.lib and object C:\Users\Liam\Documents\Unreal Projects\TefMineCraft\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TefMineCraft-4930.exp
+[2017.04.19-07.33.39:132][921]CompilerResultsLog: Info    Creating library C:\Users\Liam\Documents\Unreal Projects\TefMineCraft\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TefMineCraft-4930.suppressed.lib and object C:\Users\Liam\Documents\Unreal Projects\TefMineCraft\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TefMineCraft-4930.suppressed.exp
+[2017.04.19-07.33.39:132][921]CompilerResultsLog: Info Total build time: 161.19 seconds (Local executor: 90.98 seconds)
+[2017.04.19-07.33.39:132][921]LogMainFrame: MainFrame: Module compiling took 165.129 seconds
+[2017.04.19-07.33.39:478][921]LogContentBrowser: Native class hierarchy updated for 'TefMineCraft' in 0.0028 seconds. Added 5 classes and 2 folders.
+[2017.04.19-07.33.39:481][921]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2017.04.19-07.33.40:069][921]LogContentBrowser: Native class hierarchy populated in 0.0529 seconds. Added 2288 classes and 468 folders.
+[2017.04.19-07.33.40:126][921]Display: HotReload took 166.7s.
+[2017.04.19-07.33.49:188][728]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.19-07.33.49:212][728]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-07.33.49:213][728]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.19-07.33.49:213][728]PIE: New page: PIE session: FirstPersonExampleMap (Apr 18, 2017, 5:33:49 PM)
+[2017.04.19-07.33.49:213][728]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.19-07.33.49:266][728]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052708s)
+[2017.04.19-07.33.49:267][728]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.19-07.33.49:267][728]LogPlayLevel: PIE: World Init took: (0.001290s)
+[2017.04.19-07.33.49:267][728]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.054276s)
+[2017.04.19-07.33.49:415][728]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.19-07.33.49:434][728]LogInit: FAudioDevice initialized.
+[2017.04.19-07.33.49:466][728]LogLoad: Game class is 'TefMineCraftGameMode'
+[2017.04.19-07.33.49:469][728]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.19-00.33.49
+[2017.04.19-07.33.49:469][728]LogWorld: Bringing up level for play took: 0.001317
+[2017.04.19-07.33.49:470][728]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.528
+[2017.04.19-07.33.49:470][728]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-07.34.28:870][598]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.070731 > MaxSimulationTimeStep (0.050) for 'FirstPersonCharacter_C_0', movement 'Walking'
+[2017.04.19-07.34.34:122][183]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-07.34.34:197][183]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-07.34.52:486][ 71]BlueprintLog: New page: Compile BP_Voxel
+[2017.04.19-07.34.54:426][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/Blueprints/BP_Voxel" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/MyAssets/Blueprints/BP_Voxel.uasset" SILENT=true
+[2017.04.19-07.34.54:531][229]LogSavePackage: Save=87.06ms
+[2017.04.19-07.34.54:531][229]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Saved/BP_VoxelC5AB645B4D5E494D7E9F62890D03F74C.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/MyAssets/Blueprints/BP_Voxel.uasset'
+[2017.04.19-07.34.54:557][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/MyAssets/Blueprints/BP_Voxel.uasset
+[2017.04.19-07.34.57:042][518]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.19-07.34.57:070][518]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-07.34.57:070][518]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.19-07.34.57:070][518]PIE: New page: PIE session: FirstPersonExampleMap (Apr 18, 2017, 5:34:57 PM)
+[2017.04.19-07.34.57:070][518]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.19-07.34.57:138][518]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068145s)
+[2017.04.19-07.34.57:139][518]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.19-07.34.57:140][518]LogPlayLevel: PIE: World Init took: (0.001312s)
+[2017.04.19-07.34.57:140][518]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.069777s)
+[2017.04.19-07.34.57:198][518]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.19-07.34.57:219][518]LogInit: FAudioDevice initialized.
+[2017.04.19-07.34.57:252][518]LogLoad: Game class is 'TefMineCraftGameMode'
+[2017.04.19-07.34.57:255][518]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.19-00.34.57
+[2017.04.19-07.34.57:255][518]LogWorld: Bringing up level for play took: 0.001300
+[2017.04.19-07.34.57:257][518]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.741
+[2017.04.19-07.34.57:257][518]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-07.35.35:032][ 65]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-07.35.35:109][ 65]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-07.35.43:970][ 55]BlueprintLog: New page: Compile BP_Voxel
+[2017.04.19-07.35.45:345][157]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/Blueprints/BP_Voxel" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/MyAssets/Blueprints/BP_Voxel.uasset" SILENT=true
+[2017.04.19-07.35.45:435][157]LogSavePackage: Save=79.00ms
+[2017.04.19-07.35.45:436][157]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Saved/BP_VoxelF8AE287541EC45DC7188568B2D64FC4C.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/MyAssets/Blueprints/BP_Voxel.uasset'
+[2017.04.19-07.35.45:439][157]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/MyAssets/Blueprints/BP_Voxel.uasset
+[2017.04.19-07.35.47:448][385]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.19-07.35.47:472][385]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-07.35.47:472][385]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.19-07.35.47:473][385]PIE: New page: PIE session: FirstPersonExampleMap (Apr 18, 2017, 5:35:47 PM)
+[2017.04.19-07.35.47:473][385]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.19-07.35.47:529][385]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056211s)
+[2017.04.19-07.35.47:531][385]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.19-07.35.47:531][385]LogPlayLevel: PIE: World Init took: (0.001504s)
+[2017.04.19-07.35.47:531][385]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.058025s)
+[2017.04.19-07.35.47:590][385]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.19-07.35.47:629][385]LogInit: FAudioDevice initialized.
+[2017.04.19-07.35.47:661][385]LogLoad: Game class is 'TefMineCraftGameMode'
+[2017.04.19-07.35.47:678][385]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.19-00.35.47
+[2017.04.19-07.35.47:679][385]LogWorld: Bringing up level for play took: 0.001560
+[2017.04.19-07.35.47:696][385]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.302
+[2017.04.19-07.35.47:696][385]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-07.37.06:179][810]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.071671 > MaxSimulationTimeStep (0.050) for 'FirstPersonCharacter_C_0', movement 'Walking'
+[2017.04.19-07.37.12:724][246]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-07.37.12:817][246]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.19-08.25.50:739][ 65]LogHotReload: New module detected: UE4Editor-TefMineCraft-2030.dll
+[2017.04.19-08.25.51:698][ 69]LogHotReload: Starting Hot-Reload from IDE
+[2017.04.19-08.25.57:569][ 69]LogClass: Could not find existing class SimplexNoiseLibrary in package /Script/TefMineCraft for HotReload, assuming new class
+[2017.04.19-08.25.57:589][ 69]LogClass: Function setNoiseSeed is new.
+[2017.04.19-08.25.57:589][ 69]LogClass: Function SimplexNoise1D is new.
+[2017.04.19-08.25.57:589][ 69]LogClass: Function SimplexNoise2D is new.
+[2017.04.19-08.25.57:589][ 69]LogClass: Function SimplexNoise3D is new.
+[2017.04.19-08.25.57:589][ 69]LogClass: Function SimplexNoise4D is new.
+[2017.04.19-08.25.57:589][ 69]LogClass: Function SimplexNoiseInRange1D is new.
+[2017.04.19-08.25.57:589][ 69]LogClass: Function SimplexNoiseInRange2D is new.
+[2017.04.19-08.25.57:589][ 69]LogClass: Function SimplexNoiseInRange3D is new.
+[2017.04.19-08.25.57:589][ 69]LogClass: Function SimplexNoiseInRange4D is new.
+[2017.04.19-08.25.57:589][ 69]LogClass: Function SimplexNoiseScaled1D is new.
+[2017.04.19-08.25.57:589][ 69]LogClass: Function SimplexNoiseScaled2D is new.
+[2017.04.19-08.25.57:589][ 69]LogClass: Function SimplexNoiseScaled3D is new.
+[2017.04.19-08.25.57:589][ 69]LogClass: Function SimplexNoiseScaled4D is new.
+[2017.04.19-08.25.57:998][ 69]LogContentBrowser: Native class hierarchy updated for 'TefMineCraft' in 0.1033 seconds. Added 6 classes and 2 folders.
+[2017.04.19-08.25.58:014][ 69]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2017.04.19-08.25.59:697][ 69]LogContentBrowser: Native class hierarchy populated in 0.0432 seconds. Added 2289 classes and 468 folders.
+[2017.04.19-08.25.59:775][ 69]Display: HotReload took  8.1s.
+[2017.04.19-08.26.11:422][602]BlueprintLog: New page: Compile BP_Voxel
+[2017.04.19-08.26.11:742][602]LogBlueprint:Error: [Compiler BP_Voxel] Error Cannot order parameters ReturnValue in function CalculateNoise.
+[2017.04.19-08.26.11:743][602]LogBlueprint:Error: [Compiler BP_Voxel] Error Cannot override 'VoxelActor::CalculateNoise' at  Calculate Noise  which was declared in a parent with a different signature
+[2017.04.19-08.26.13:292][602]BlueprintEditorCompileResults:Error: Error Cannot order parameters ReturnValue in function CalculateNoise.
+[2017.04.19-08.26.13:292][602]BlueprintEditorCompileResults:Error: Error Cannot override 'VoxelActor::CalculateNoise' at  Calculate Noise  which was declared in a parent with a different signature
+[2017.04.19-08.26.13:376][602]LogBlueprint:Warning: [Compiler BP_Voxel] Warning [0162.17] Compile of BP_Voxel failed. 2 Fatal Issue(s) 0 Warning(s) [in 1,908 ms] (/Game/MyAssets/Blueprints/BP_Voxel.BP_Voxel)
+[2017.04.19-08.27.06:098][914]BlueprintLog: New page: Compile BP_Voxel
+[2017.04.19-08.27.06:471][914]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2017.04.19-08.27.28:763][914]LogCrashTracker: 
+
+
+[2017.04.19-08.27.28:763][914]LogCrashTracker: 
+
+
+[2017.04.19-08.27.28:789][914]LogWindows:Error: === Critical error: ===
+[2017.04.19-08.27.28:789][914]LogWindows:Error: 
+[2017.04.19-08.27.28:789][914]LogWindows:Error: Assertion failed: (Index >= 0) & (Index < ArrayNum) [File:c:\program files\epic games\ue_4.15\engine\source\runtime\core\public\Containers/Array.h] [Line: 633] 
+[2017.04.19-08.27.28:789][914]LogWindows:Error: Array index out of bounds: 0 from an array of size 0
+[2017.04.19-08.27.28:789][914]LogWindows:Error: 
+[2017.04.19-08.27.28:789][914]LogWindows:Error: 
+[2017.04.19-08.27.28:789][914]LogWindows:Error: KERNELBASE.dll!0x00000000087F3C58
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor-Core.dll!0x00000000CC1B64EE
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor-Core.dll!0x00000000CBFDCEEE
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor-Core.dll!0x00000000CBF62729
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor-TefMineCraft-2030.dll!AVoxelActor::bGenerateChunk() [c:\users\liam\documents\unreal projects\tefminecraft\source\tefminecraft\voxelactor.cpp:80]
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor-TefMineCraft-2030.dll!AVoxelActor::OnConstruction() [c:\users\liam\documents\unreal projects\tefminecraft\source\tefminecraft\voxelactor.cpp:58]
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor-Engine.dll!0x00000000C678A00D
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor-Engine.dll!0x00000000C67C6390
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000CA2B6D7E
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000CA2D5C5C
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000CA2A6E4D
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor-Kismet.dll!0x00000000C39844FD
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor-Kismet.dll!0x00000000C39D1941
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor-Kismet.dll!0x00000000C39D63E6
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor-Slate.dll!0x00000000CB3A819F
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor-Slate.dll!0x00000000CB49B530
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor-Slate.dll!0x00000000CB40C7A2
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor-Slate.dll!0x00000000CB40DBA9
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor-Slate.dll!0x00000000CB47B689
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor-Slate.dll!0x00000000CB52CF25
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor-Slate.dll!0x00000000CB55A4AE
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor-Slate.dll!0x00000000CB38411C
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor-Slate.dll!0x00000000CB3547F5
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor-Slate.dll!0x00000000CB3F7193
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor-Slate.dll!0x00000000CB3E1100
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor-Slate.dll!0x00000000CB3D0211
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor-Core.dll!0x00000000CC1ACDF9
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor-Core.dll!0x00000000CC1967C1
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor-Core.dll!0x00000000CC1AEA1C
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor-Core.dll!0x00000000CC1926E9
+[2017.04.19-08.27.28:789][914]LogWindows:Error: USER32.dll!0x000000000BEB1C24
+[2017.04.19-08.27.28:789][914]LogWindows:Error: USER32.dll!0x000000000BEB156C
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor-Core.dll!0x00000000CC1AF326
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor.exe!0x000000003F65D790
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor.exe!0x000000003F64EB40
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor.exe!0x000000003F64EBBA
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor.exe!0x000000003F660A29
+[2017.04.19-08.27.28:789][914]LogWindows:Error: UE4Editor.exe!0x000000003F6622B6
+[2017.04.19-08.27.28:789][914]LogWindows:Error: KERNEL32.DLL!0x000000000C1C8364
+[2017.04.19-08.27.28:789][914]LogWindows:Error: ntdll.dll!0x000000000C3370D1
+[2017.04.19-08.27.28:789][914]LogWindows:Error: ntdll.dll!0x000000000C3370D1
+[2017.04.19-08.27.28:789][914]LogWindows:Error: 
+[2017.04.19-08.27.29:404][914]LogExit: Executing StaticShutdownAfterError
+[2017.04.19-08.27.37:803][914]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.04.19-08.27.37:853][914]Log file closed, 04/19/17 01:27:37

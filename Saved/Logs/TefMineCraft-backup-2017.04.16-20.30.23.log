@@ -1,0 +1,864 @@
+﻿Log file open, 04/14/17 23:27:33
+LogInit:Display: Running engine for game: TefMineCraft
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1937697620) SRandInit(1937697620).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.099171
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.15-06.27.35:756][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.15-06.27.35:756][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.15-06.27.35:847][  0]LogInit: Computer: ULTIMATESKIBUM
+[2017.04.15-06.27.35:847][  0]LogInit: User: Liam
+[2017.04.15-06.27.35:847][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.15-06.27.35:847][  0]LogInit: High frequency timer resolution =3.906381 MHz
+[2017.04.15-06.27.35:847][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.04.15-06.27.35:847][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.15-06.27.35:847][  0]LogMemory: Process Physical Memory: 264.13 MB used, 264.13 MB peak
+[2017.04.15-06.27.35:847][  0]LogMemory: Process Virtual Memory: 262.70 MB used, 262.70 MB peak
+[2017.04.15-06.27.35:847][  0]LogMemory: Physical Memory: 6033.67 MB used,  2105.33 MB free, 8139.00 MB total
+[2017.04.15-06.27.35:847][  0]LogMemory: Virtual Memory: 645.13 MB used,  2105.33 MB free, 134217728.00 MB total
+[2017.04.15-06.27.36:302][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.04.15-06.27.42:814][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.15-06.27.43:361][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 770' (Feature Level 11_0)
+[2017.04.15-06.27.43:361][  0]LogD3D11RHI:       4063/0/4069 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.15-06.27.43:363][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.15-06.27.43:363][  0]LogD3D11RHI:       0/0/4069 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.15-06.27.43:363][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.15-06.27.43:373][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.15-06.27.43:373][  0]LogD3D11RHI:     GPU DeviceId: 0x1184 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.15-06.27.43:373][  0]LogWindows: EnumDisplayDevices:
+[2017.04.15-06.27.43:373][  0]LogWindows:    0. 'NVIDIA GeForce GTX 770' (P:1 D:1)
+[2017.04.15-06.27.43:373][  0]LogWindows:    1. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.04.15-06.27.43:373][  0]LogWindows:    2. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.04.15-06.27.43:374][  0]LogWindows:    3. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.04.15-06.27.43:374][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.04.15-06.27.43:374][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 770
+[2017.04.15-06.27.43:374][  0]LogD3D11RHI:   Driver Version: 381.65 (internal:22.21.13.8165, unified:381.65)
+[2017.04.15-06.27.43:374][  0]LogD3D11RHI:      Driver Date: 3-31-2017
+[2017.04.15-06.27.43:374][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.15-06.27.43:860][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.04.15-06.27.43:860][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.15-06.27.43:913][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.04.15-06.27.43:915][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061081).
+[2017.04.15-06.27.43:915][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Intermediate/Shaders/WorkingDirectory/8992/).
+[2017.04.15-06.27.43:916][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Liam/AppData/Local/Temp/UnrealShaderWorkingDir/04E50AC74C10710338AAC2B9A69694DD/'.
+[2017.04.15-06.27.43:916][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.15-06.27.45:643][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.15-06.27.45:758][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.15-06.27.45:857][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.15-06.27.45:956][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.15-06.27.46:067][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.15-06.27.46:164][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.15-06.27.46:263][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.15-06.27.46:362][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.15-06.27.46:445][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.15-06.27.46:548][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.15-06.27.46:644][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.15-06.27.46:741][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.15-06.27.46:837][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.15-06.27.46:935][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.15-06.27.47:032][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.15-06.27.47:224][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.15-06.27.47:224][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.15-06.27.47:298][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.15-06.27.47:468][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.15-06.27.47:533][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.15-06.27.47:629][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.15-06.27.47:728][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.15-06.27.47:824][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.15-06.27.47:925][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.15-06.27.47:925][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.15-06.27.48:778][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.15-06.27.48:887][  0]LogDerivedDataCache: Loaded boot cache 0.11s 51MB C:/Users/Liam/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.15-06.27.48:887][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Liam/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.15-06.27.48:887][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.15-06.27.48:887][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.15-06.27.48:887][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.15-06.27.48:887][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.15-06.27.48:910][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.15-06.27.48:922][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Liam/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.15-06.27.48:937][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.15-06.27.48:969][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.15-06.27.48:969][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.15-06.27.50:496][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.15-06.27.50:500][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.15-06.27.50:921][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.15-06.27.51:002][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.15-06.27.51:094][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.15-06.27.51:094][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.15-06.27.51:094][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.15-06.27.52:682][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: tefminecraft, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1899195743
+[2017.04.15-06.27.52:750][  0]LogAssetRegistry: FAssetRegistry took 0.0219 seconds to start up
+[2017.04.15-06.27.52:911][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.113151 seconds
+[2017.04.15-06.27.52:918][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.15-06.27.52:918][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.04.15-06.27.52:918][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.15-06.27.53:046][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.15-06.28.03:485][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.15-06.28.03:555][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.15-06.28.06:363][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.15-06.28.07:211][  0]SourceControl: Info Source control is disabled
+[2017.04.15-06.28.07:213][  0]SourceControl: Info Source control is disabled
+[2017.04.15-06.28.07:302][  0]SourceControl: Info Source control is disabled
+[2017.04.15-06.28.07:390][  0]SourceControl: Info Source control is disabled
+[2017.04.15-06.28.09:847][  0]LogEngine: Initializing Engine...
+[2017.04.15-06.28.09:848][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.15-06.28.10:435][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.15-06.28.10:466][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.15-06.28.10:487][  0]LogInit: FAudioDevice initialized.
+[2017.04.15-06.28.10:541][  0]LogDerivedDataCache: Saved boot cache 0.05s 51MB C:/Users/Liam/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.15-06.28.10:567][  0]LogInit: Texture streaming: Enabled
+[2017.04.15-06.28.10:751][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.15-06.28.10:919][  0]LogInit: Transaction tracking system initialized
+[2017.04.15-06.28.11:558][  0]BlueprintLog: New page: Editor Load
+[2017.04.15-06.28.13:363][  0]LocalizationService: Info Localization service is disabled
+[2017.04.15-06.28.14:643][  0]LogConsoleResponse:Display: 
+[2017.04.15-06.28.15:191][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.15-06.28.15:192][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.15-06.28.15:519][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/' took 0.05s
+[2017.04.15-06.28.17:221][  0]SourceControl: Info Source control is disabled
+[2017.04.15-06.28.17:221][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.15-06.28.17:222][  0]LightingResults: New page: Lighting Build
+[2017.04.15-06.28.17:293][  0]MapCheck: New page: Map Check
+[2017.04.15-06.28.17:293][  0]LightingResults: New page: Lighting Build
+[2017.04.15-06.28.18:002][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.15-06.28.18:192][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.15-06.28.18:216][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.15-06.28.18:281][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 65.352ms to complete.
+[2017.04.15-06.28.18:281][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.060
+[2017.04.15-06.28.18:391][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.15-06.28.19:124][  0]LogCollectionManager: Loaded 0 collections in 0.002300 seconds
+[2017.04.15-06.28.19:398][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Documents/Unreal Projects/TefMineCraft/Saved/Collections/' took 0.01s
+[2017.04.15-06.28.19:398][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/Developers/Liam/Collections/' took 0.01s
+[2017.04.15-06.28.19:398][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/Collections/' took 0.01s
+[2017.04.15-06.28.19:398][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.04.15-06.28.19:415][  0]LogContentBrowser: Native class hierarchy populated in 0.0157 seconds. Added 2251 classes and 458 folders.
+[2017.04.15-06.28.19:462][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.15-06.28.19:463][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.15-06.28.19:600][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0023 seconds. Added 0 classes and 0 folders.
+[2017.04.15-06.28.22:397][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0025 seconds. Added 0 classes and 0 folders.
+[2017.04.15-06.28.22:556][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0025 seconds. Added 1 classes and 2 folders.
+[2017.04.15-06.28.22:947][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.15-06.28.23:028][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.15-06.28.23:158][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0027 seconds. Added 1 classes and 2 folders.
+[2017.04.15-06.28.23:158][  0]LogLoad: (Engine Initialization) Total time: 51.99 seconds
+[2017.04.15-06.28.23:158][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.51 seconds
+[2017.04.15-06.28.23:158][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.15-06.28.23:158][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.15-06.28.23:168][  0]LogOcInput: OculusInput pre-init called
+[2017.04.15-06.28.23:275][  0]LogContentStreaming: Texture pool size now 800 MB
+[2017.04.15-06.28.23:296][  0]LogSlate: Took 0.000307 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.15-06.28.23:302][  0]LogSlate: Took 0.000355 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.15-06.28.23:339][  0]LogSlate: Took 0.014609 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.15-06.28.24:203][  0]LogRenderer: Reallocating scene render targets to support 1164x580 NumSamples 1 (Frame:2).
+[2017.04.15-06.28.24:203][  0]LogSlate: Took 0.025800 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.15-06.28.24:868][  2]LogAssetRegistry: Asset discovery search completed in 32.1396 seconds
+[2017.04.15-06.28.24:868][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000010 seconds (found 0 objects)
+[2017.04.15-06.28.24:868][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2017.04.15-06.28.24:901][  2]LogSlate: Took 0.000602 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.15-06.28.28:897][407]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.15-06.28.30:093][407]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0031 seconds. Added 112 classes and 0 folders.
+[2017.04.15-06.28.32:013][407]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-06.28.32:037][407]LogTemp:Display: Added material ShaderMap 0x00000296194D9280 with Material 0x0000029620179800 to ShaderMapsBeingCompiled
+[2017.04.15-06.28.32:161][407]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x00000296194D9280
+[2017.04.15-06.28.32:690][407]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-06.28.32:692][407]LogTemp:Display: Added material ShaderMap 0x0000029620CBE080 with Material 0x0000029620179800 to ShaderMapsBeingCompiled
+[2017.04.15-06.28.32:743][407]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x0000029620CBE080
+[2017.04.15-06.28.32:744][407]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.15-06.28.32:788][407]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.04.15-06.28.32:790][407]LogTemp:Display: Added material ShaderMap 0x0000029624D8AB00 with Material 0x0000029620B0BA00 to ShaderMapsBeingCompiled
+[2017.04.15-06.28.32:794][407]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_2, GameThreadShaderMap 0x0000029624D8AB00
+[2017.04.15-06.28.32:809][407]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2017.04.15-06.28.32:810][407]LogTemp:Display: Added material ShaderMap 0x0000029624D89280 with Material 0x0000029620B08A00 to ShaderMapsBeingCompiled
+[2017.04.15-06.28.32:812][407]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_2, GameThreadShaderMap 0x0000029624D89280
+[2017.04.15-06.28.33:089][407]LogTemp:Display: Finished compile of shader map 0x00000296194D9280
+[2017.04.15-06.28.33:089][407]LogTemp:Display: Shader map M_Leaves complete, GameThreadShaderMap 0x00000296194D9280, marking material M_Leaves as finished
+[2017.04.15-06.28.33:089][407]LogTemp:Display: Marking material as finished 0x0000029620179800
+[2017.04.15-06.28.33:115][407]LogSlate: Took 0.015547 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.15-06.28.36:413][576]LogTemp:Display: Finished compile of shader map 0x0000029620CBE080
+[2017.04.15-06.28.36:413][576]LogTemp:Display: Shader map M_Leaves complete, GameThreadShaderMap 0x0000029620CBE080, marking material M_Leaves as finished
+[2017.04.15-06.28.36:413][576]LogTemp:Display: Marking material as finished 0x0000029620179800
+[2017.04.15-06.28.36:469][577]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 89 instructions
+[2017.04.15-06.28.36:469][577]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2017.04.15-06.28.36:469][577]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.04.15-06.28.36:486][577]LogTemp:Display: Finished compile of shader map 0x0000029624D8AB00
+[2017.04.15-06.28.36:486][577]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_2 complete, GameThreadShaderMap 0x0000029624D8AB00, marking material FMatExpressionPreview MaterialExpressionTextureSample_2 as finished
+[2017.04.15-06.28.36:486][577]LogTemp:Display: Marking material as finished 0x0000029620B0BA00
+[2017.04.15-06.28.36:583][580]LogTemp:Display: Finished compile of shader map 0x0000029624D89280
+[2017.04.15-06.28.36:583][580]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_2 complete, GameThreadShaderMap 0x0000029624D89280, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_2 as finished
+[2017.04.15-06.28.36:583][580]LogTemp:Display: Marking material as finished 0x0000029620B08A00
+[2017.04.15-06.42.34:439][575]LogSlate: Took 0.017703 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.04.15-06.42.42:943][360]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2017.04.15-06.42.43:081][360]LogEditorActor: Deleted 1 Actors (0.179 secs)
+[2017.04.15-06.42.44:615][530]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.15-06.42.44:661][530]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-06.42.44:671][530]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.15-06.42.44:718][530]PIE: New page: PIE session: FirstPersonExampleMap (Apr 14, 2017, 4:42:44 PM)
+[2017.04.15-06.42.44:743][530]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.15-06.42.44:858][530]LogPlayLevel: PIE: StaticDuplicateObject took: (0.115234s)
+[2017.04.15-06.42.44:860][530]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.15-06.42.44:860][530]LogPlayLevel: PIE: World Init took: (0.001516s)
+[2017.04.15-06.42.44:868][530]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.132606s)
+[2017.04.15-06.42.44:931][530]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.15-06.42.44:950][530]LogInit: FAudioDevice initialized.
+[2017.04.15-06.42.45:136][530]LogLoad: Game class is 'TefMineCraftGameMode'
+[2017.04.15-06.42.45:245][530]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.14-23.42.45
+[2017.04.15-06.42.45:278][530]LogWorld: Bringing up level for play took: 0.034393
+[2017.04.15-06.42.45:443][530]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0027 seconds. Added 11 classes and 0 folders.
+[2017.04.15-06.42.45:472][530]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 1.453
+[2017.04.15-06.42.45:473][530]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-07.01.38:948][145]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-07.01.39:203][145]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-07.03.22:219][286]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-07.03.22:221][286]LogTemp:Display: Added material ShaderMap 0x000002968EE42E80 with Material 0x0000029620179800 to ShaderMapsBeingCompiled
+[2017.04.15-07.03.22:258][286]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x000002968EE42E80
+[2017.04.15-07.03.22:309][286]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-07.03.22:311][286]LogTemp:Display: Added material ShaderMap 0x0000029625DA7200 with Material 0x0000029620179800 to ShaderMapsBeingCompiled
+[2017.04.15-07.03.22:347][286]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x0000029625DA7200
+[2017.04.15-07.03.22:348][286]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.15-07.03.23:055][341]LogTemp:Display: Finished compile of shader map 0x000002968EE42E80
+[2017.04.15-07.03.23:055][341]LogTemp:Display: Shader map M_Leaves complete, GameThreadShaderMap 0x000002968EE42E80, marking material M_Leaves as finished
+[2017.04.15-07.03.23:055][341]LogTemp:Display: Marking material as finished 0x0000029620179800
+[2017.04.15-07.03.26:144][606]LogTemp:Display: Finished compile of shader map 0x0000029625DA7200
+[2017.04.15-07.03.26:144][606]LogTemp:Display: Shader map M_Leaves complete, GameThreadShaderMap 0x0000029625DA7200, marking material M_Leaves as finished
+[2017.04.15-07.03.26:145][606]LogTemp:Display: Marking material as finished 0x0000029620179800
+[2017.04.15-07.03.26:155][607]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 49 instructions
+[2017.04.15-07.03.26:156][607]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 85 instructions
+[2017.04.15-07.03.26:156][607]MaterialEditorStats: Info Vertex shader: 81 instructions
+[2017.04.15-07.03.26:156][607]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.04.15-07.03.30:811][155]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-07.03.30:813][155]LogTemp:Display: Added material ShaderMap 0x000002962569AB00 with Material 0x0000029620179800 to ShaderMapsBeingCompiled
+[2017.04.15-07.03.30:848][155]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x000002962569AB00
+[2017.04.15-07.03.30:857][155]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-07.03.30:859][155]LogTemp:Display: Added material ShaderMap 0x0000029624B9AB00 with Material 0x0000029620179800 to ShaderMapsBeingCompiled
+[2017.04.15-07.03.30:901][155]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x0000029624B9AB00
+[2017.04.15-07.03.30:901][155]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.15-07.03.31:166][170]LogTemp:Display: Finished compile of shader map 0x000002962569AB00
+[2017.04.15-07.03.31:166][170]LogTemp:Display: Shader map M_Leaves complete, GameThreadShaderMap 0x000002962569AB00, marking material M_Leaves as finished
+[2017.04.15-07.03.31:166][170]LogTemp:Display: Marking material as finished 0x0000029620179800
+[2017.04.15-07.03.34:386][443]LogTemp:Display: Finished compile of shader map 0x0000029624B9AB00
+[2017.04.15-07.03.34:386][443]LogTemp:Display: Shader map M_Leaves complete, GameThreadShaderMap 0x0000029624B9AB00, marking material M_Leaves as finished
+[2017.04.15-07.03.34:386][443]LogTemp:Display: Marking material as finished 0x0000029620179800
+[2017.04.15-07.03.34:400][444]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 89 instructions
+[2017.04.15-07.03.34:400][444]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2017.04.15-07.03.34:400][444]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.04.15-07.03.42:858][453]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-07.03.42:860][453]LogTemp:Display: Added material ShaderMap 0x00000296951BA080 with Material 0x0000029620179800 to ShaderMapsBeingCompiled
+[2017.04.15-07.03.42:895][453]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x00000296951BA080
+[2017.04.15-07.03.42:917][453]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-07.03.42:918][453]LogTemp:Display: Added material ShaderMap 0x0000029625820F00 with Material 0x0000029620179800 to ShaderMapsBeingCompiled
+[2017.04.15-07.03.42:953][453]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x0000029625820F00
+[2017.04.15-07.03.42:953][453]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.15-07.03.46:296][723]LogTemp:Display: Finished compile of shader map 0x0000029625820F00
+[2017.04.15-07.03.46:296][723]LogTemp:Display: Shader map M_Leaves complete, GameThreadShaderMap 0x0000029625820F00, marking material M_Leaves as finished
+[2017.04.15-07.03.46:296][723]LogTemp:Display: Marking material as finished 0x0000029620179800
+[2017.04.15-07.03.46:309][724]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 93 instructions
+[2017.04.15-07.03.46:309][724]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2017.04.15-07.03.46:309][724]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.04.15-07.03.49:449][ 99]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-07.03.49:450][ 99]LogTemp:Display: Added material ShaderMap 0x0000029687BDAE80 with Material 0x0000029620179800 to ShaderMapsBeingCompiled
+[2017.04.15-07.03.49:485][ 99]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x0000029687BDAE80
+[2017.04.15-07.03.49:522][ 99]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-07.03.49:523][ 99]LogTemp:Display: Added material ShaderMap 0x0000029624CDD280 with Material 0x0000029620179800 to ShaderMapsBeingCompiled
+[2017.04.15-07.03.49:558][ 99]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x0000029624CDD280
+[2017.04.15-07.03.49:559][ 99]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.15-07.03.52:832][371]LogTemp:Display: Finished compile of shader map 0x0000029624CDD280
+[2017.04.15-07.03.52:832][371]LogTemp:Display: Shader map M_Leaves complete, GameThreadShaderMap 0x0000029624CDD280, marking material M_Leaves as finished
+[2017.04.15-07.03.52:832][371]LogTemp:Display: Marking material as finished 0x0000029620179800
+[2017.04.15-07.03.52:844][372]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 89 instructions
+[2017.04.15-07.03.52:844][372]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2017.04.15-07.03.52:844][372]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.04.15-07.04.17:053][ 10]LogSavePackage: Save=641.84ms
+[2017.04.15-07.04.17:053][ 10]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Saved/FirstPersonExampleMap_Auto1114833EB455A0817A3FBA9B1238A1313.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2017.04.15-07.04.17:061][ 10]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto1.umap
+[2017.04.15-07.04.17:076][ 10]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 1.925
+[2017.04.15-07.04.17:076][ 10]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.925
+[2017.04.15-07.08.47:243][374]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-07.08.47:245][374]LogTemp:Display: Added material ShaderMap 0x000002961860AE80 with Material 0x0000029620179800 to ShaderMapsBeingCompiled
+[2017.04.15-07.08.47:280][374]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x000002961860AE80
+[2017.04.15-07.08.47:288][374]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-07.08.47:290][374]LogTemp:Display: Added material ShaderMap 0x000002968C1B1280 with Material 0x0000029620179800 to ShaderMapsBeingCompiled
+[2017.04.15-07.08.47:326][374]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x000002968C1B1280
+[2017.04.15-07.08.47:326][374]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.15-07.08.50:966][685]LogTemp:Display: Finished compile of shader map 0x000002968C1B1280
+[2017.04.15-07.08.50:966][685]LogTemp:Display: Shader map M_Leaves complete, GameThreadShaderMap 0x000002968C1B1280, marking material M_Leaves as finished
+[2017.04.15-07.08.50:966][685]LogTemp:Display: Marking material as finished 0x0000029620179800
+[2017.04.15-07.08.50:979][686]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 89 instructions
+[2017.04.15-07.08.50:979][686]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2017.04.15-07.08.50:979][686]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.04.15-07.08.53:599][985]LogMaterialEditor: Applying material M_Leaves
+[2017.04.15-07.08.54:617][985]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-07.08.54:619][985]LogTemp:Display: Added material ShaderMap 0x0000029689EE9280 with Material 0x0000029620179800 to ShaderMapsBeingCompiled
+[2017.04.15-07.08.54:690][985]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x0000029689EE9280
+[2017.04.15-07.08.54:690][985]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.15-07.08.54:740][985]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-07.08.54:742][985]LogTemp:Display: Added material ShaderMap 0x0000029689EE9D00 with Material 0x000002961937EF80 to ShaderMapsBeingCompiled
+[2017.04.15-07.08.54:857][985]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x0000029689EE9D00
+[2017.04.15-07.08.54:877][985]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-07.08.54:881][985]LogTemp:Display: Added material ShaderMap 0x0000029685801980 with Material 0x000002961937EF80 to ShaderMapsBeingCompiled
+[2017.04.15-07.08.54:953][985]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x0000029685801980
+[2017.04.15-07.08.54:955][985]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.15-07.08.55:039][985]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Leaves, compiling. 
+[2017.04.15-07.08.55:041][985]LogTemp:Display: Added material ShaderMap 0x0000029685774800 with Material 0x0000029690A83A00 to ShaderMapsBeingCompiled
+[2017.04.15-07.08.57:467][985]LogTemp:Display: Finished compile of shader map 0x0000029685774800
+[2017.04.15-07.08.57:468][985]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Leaves complete, GameThreadShaderMap 0x0000029685774800, marking material FDebugViewModeMaterialProxy M_Leaves as finished
+[2017.04.15-07.08.57:468][985]LogTemp:Display: Marking material as finished 0x0000029690A83A00
+[2017.04.15-07.08.57:474][985]TextureStreamingBuild:Display: Compiling optional shaders took 2.463 seconds.
+[2017.04.15-07.08.57:559][985]LogTemp:Display: Finished compile of shader map 0x0000029689EE9280
+[2017.04.15-07.08.57:559][985]LogTemp:Display: Shader map M_Leaves complete, GameThreadShaderMap 0x0000029689EE9280, marking material M_Leaves as finished
+[2017.04.15-07.08.57:559][985]LogTemp:Display: Marking material as finished 0x0000029620179800
+[2017.04.15-07.08.59:555][115]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.15-07.08.59:601][115]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-07.08.59:601][115]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.15-07.08.59:601][115]PIE: New page: PIE session: FirstPersonExampleMap (Apr 14, 2017, 5:08:59 PM)
+[2017.04.15-07.08.59:601][115]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.15-07.08.59:665][115]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063650s)
+[2017.04.15-07.08.59:667][115]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.15-07.08.59:668][115]LogPlayLevel: PIE: World Init took: (0.002710s)
+[2017.04.15-07.08.59:668][115]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.066949s)
+[2017.04.15-07.08.59:740][115]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.15-07.08.59:770][115]LogInit: FAudioDevice initialized.
+[2017.04.15-07.08.59:819][115]LogLoad: Game class is 'TefMineCraftGameMode'
+[2017.04.15-07.08.59:824][115]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.15-00.08.59
+[2017.04.15-07.08.59:824][115]LogWorld: Bringing up level for play took: 0.002280
+[2017.04.15-07.08.59:825][115]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.194
+[2017.04.15-07.08.59:826][115]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-07.09.18:901][116]LogTemp:Display: Finished compile of shader map 0x0000029685801980
+[2017.04.15-07.09.18:901][116]LogTemp:Display: Shader map M_Leaves complete, GameThreadShaderMap 0x0000029685801980, marking material M_Leaves as finished
+[2017.04.15-07.09.18:901][116]LogTemp:Display: Marking material as finished 0x000002961937EF80
+[2017.04.15-07.09.19:024][117]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 89 instructions
+[2017.04.15-07.09.19:024][117]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2017.04.15-07.09.19:024][117]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.15-07.10.51:296][440]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-07.10.51:298][440]LogTemp:Display: Added material ShaderMap 0x0000029616B25280 with Material 0x0000029620179800 to ShaderMapsBeingCompiled
+[2017.04.15-07.10.51:333][440]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x0000029616B25280
+[2017.04.15-07.10.51:341][440]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-07.10.51:343][440]LogTemp:Display: Added material ShaderMap 0x0000029692F3F580 with Material 0x0000029620179800 to ShaderMapsBeingCompiled
+[2017.04.15-07.10.51:378][440]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x0000029692F3F580
+[2017.04.15-07.10.51:378][440]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.15-07.10.52:790][511]LogMaterialEditor: Applying material M_Leaves
+[2017.04.15-07.10.54:150][511]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-07.10.54:153][511]LogTemp:Display: Added material ShaderMap 0x0000029625820F00 with Material 0x0000029620179800 to ShaderMapsBeingCompiled
+[2017.04.15-07.10.54:286][511]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x0000029625820F00
+[2017.04.15-07.10.54:287][511]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.15-07.10.54:344][511]LogTemp:Display: Removed shader map 0x0000029689EE9D00 from material 0x000002961937EF80
+[2017.04.15-07.10.54:393][511]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-07.10.54:397][511]LogTemp:Display: Added material ShaderMap 0x00000296ADD4A080 with Material 0x000002962C8DD000 to ShaderMapsBeingCompiled
+[2017.04.15-07.10.54:494][511]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x00000296ADD4A080
+[2017.04.15-07.10.54:513][511]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-07.10.54:515][511]LogTemp:Display: Added material ShaderMap 0x00000296AE1CF200 with Material 0x000002962C8DD000 to ShaderMapsBeingCompiled
+[2017.04.15-07.10.54:586][511]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x00000296AE1CF200
+[2017.04.15-07.10.54:725][511]LogMaterial: 0.14 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.15-07.10.54:875][511]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Leaves, compiling. 
+[2017.04.15-07.10.54:878][511]LogTemp:Display: Added material ShaderMap 0x00000296AEDD2400 with Material 0x00000296AEE1FA00 to ShaderMapsBeingCompiled
+[2017.04.15-07.10.57:361][511]LogTemp:Display: Finished compile of shader map 0x00000296AEDD2400
+[2017.04.15-07.10.57:361][511]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Leaves complete, GameThreadShaderMap 0x00000296AEDD2400, marking material FDebugViewModeMaterialProxy M_Leaves as finished
+[2017.04.15-07.10.57:361][511]LogTemp:Display: Marking material as finished 0x00000296AEE1FA00
+[2017.04.15-07.10.57:637][511]TextureStreamingBuild:Display: Compiling optional shaders took 2.776 seconds.
+[2017.04.15-07.10.57:697][511]LogTemp:Display: Finished compile of shader map 0x0000029692F3F580
+[2017.04.15-07.10.57:697][511]LogTemp:Display: Shader map M_Leaves complete, GameThreadShaderMap 0x0000029692F3F580, marking material M_Leaves as finished
+[2017.04.15-07.10.57:697][511]LogTemp:Display: Marking material as finished 0x0000029620179800
+[2017.04.15-07.10.57:703][511]LogTemp:Display: Finished compile of shader map 0x0000029625820F00
+[2017.04.15-07.10.57:704][511]LogTemp:Display: Shader map M_Leaves complete, GameThreadShaderMap 0x0000029625820F00, marking material M_Leaves as finished
+[2017.04.15-07.10.57:704][511]LogTemp:Display: Marking material as finished 0x0000029620179800
+[2017.04.15-07.11.02:564][823]LogTemp:Display: Finished compile of shader map 0x00000296AE1CF200
+[2017.04.15-07.11.02:564][823]LogTemp:Display: Shader map M_Leaves complete, GameThreadShaderMap 0x00000296AE1CF200, marking material M_Leaves as finished
+[2017.04.15-07.11.02:564][823]LogTemp:Display: Marking material as finished 0x000002962C8DD000
+[2017.04.15-07.11.02:671][824]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 89 instructions
+[2017.04.15-07.11.02:671][824]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2017.04.15-07.11.02:671][824]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.15-08.14.43:259][734]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.14.43:509][734]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.14.46:471][982]Cmd: TRANSACTION UNDO
+[2017.04.15-08.14.46:471][982]LogEditorTransaction: Undo Edit Cast Shadow as Masked
+[2017.04.15-08.14.46:499][982]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-08.14.46:501][982]LogTemp:Display: Added material ShaderMap 0x0000029634A24100 with Material 0x0000029620179800 to ShaderMapsBeingCompiled
+[2017.04.15-08.14.46:538][982]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x0000029634A24100
+[2017.04.15-08.14.46:558][982]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-08.14.46:560][982]LogTemp:Display: Added material ShaderMap 0x000002965D49F900 with Material 0x0000029620179800 to ShaderMapsBeingCompiled
+[2017.04.15-08.14.46:600][982]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x000002965D49F900
+[2017.04.15-08.14.46:600][982]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.15-08.14.47:333][ 17]LogTemp:Display: Finished compile of shader map 0x0000029634A24100
+[2017.04.15-08.14.47:333][ 17]LogTemp:Display: Shader map M_Leaves complete, GameThreadShaderMap 0x0000029634A24100, marking material M_Leaves as finished
+[2017.04.15-08.14.47:333][ 17]LogTemp:Display: Marking material as finished 0x0000029620179800
+[2017.04.15-08.14.49:260][161]Cmd: TRANSACTION UNDO
+[2017.04.15-08.14.49:260][161]LogEditorTransaction: Undo Edit Cast Shadow as Masked
+[2017.04.15-08.14.49:279][161]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-08.14.49:282][161]LogTemp:Display: Added material ShaderMap 0x000002969F3DB900 with Material 0x0000029620179800 to ShaderMapsBeingCompiled
+[2017.04.15-08.14.49:332][161]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x000002969F3DB900
+[2017.04.15-08.14.49:338][161]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-08.14.49:341][161]LogTemp:Display: Added material ShaderMap 0x0000029625699280 with Material 0x0000029620179800 to ShaderMapsBeingCompiled
+[2017.04.15-08.14.49:398][161]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x0000029625699280
+[2017.04.15-08.14.49:398][161]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.15-08.14.49:490][165]LogTemp:Display: Finished compile of shader map 0x000002965D49F900
+[2017.04.15-08.14.49:490][165]LogTemp:Display: Shader map M_Leaves complete, GameThreadShaderMap 0x000002965D49F900, marking material M_Leaves as finished
+[2017.04.15-08.14.49:490][165]LogTemp:Display: Marking material as finished 0x0000029620179800
+[2017.04.15-08.14.49:516][166]LogTemp:Display: Finished compile of shader map 0x000002969F3DB900
+[2017.04.15-08.14.49:516][166]LogTemp:Display: Shader map M_Leaves complete, GameThreadShaderMap 0x000002969F3DB900, marking material M_Leaves as finished
+[2017.04.15-08.14.49:516][166]LogTemp:Display: Marking material as finished 0x0000029620179800
+[2017.04.15-08.14.50:333][225]Cmd: TRANSACTION UNDO
+[2017.04.15-08.14.50:333][225]LogEditorTransaction: Undo Edit Two Sided
+[2017.04.15-08.14.50:343][225]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-08.14.50:345][225]LogTemp:Display: Added material ShaderMap 0x0000029634912780 with Material 0x0000029620179800 to ShaderMapsBeingCompiled
+[2017.04.15-08.14.50:392][225]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x0000029634912780
+[2017.04.15-08.14.50:397][225]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-08.14.50:399][225]LogTemp:Display: Added material ShaderMap 0x00000296AEEAC800 with Material 0x0000029620179800 to ShaderMapsBeingCompiled
+[2017.04.15-08.14.50:454][225]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x00000296AEEAC800
+[2017.04.15-08.14.50:455][225]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.15-08.14.50:503][226]LogTemp:Display: Finished compile of shader map 0x0000029625699280
+[2017.04.15-08.14.50:503][226]LogTemp:Display: Shader map M_Leaves complete, GameThreadShaderMap 0x0000029625699280, marking material M_Leaves as finished
+[2017.04.15-08.14.50:503][226]LogTemp:Display: Marking material as finished 0x0000029620179800
+[2017.04.15-08.14.50:701][240]LogTemp:Display: Finished compile of shader map 0x0000029634912780
+[2017.04.15-08.14.50:702][240]LogTemp:Display: Shader map M_Leaves complete, GameThreadShaderMap 0x0000029634912780, marking material M_Leaves as finished
+[2017.04.15-08.14.50:702][240]LogTemp:Display: Marking material as finished 0x0000029620179800
+[2017.04.15-08.14.51:638][308]Cmd: TRANSACTION UNDO
+[2017.04.15-08.14.51:638][308]LogEditorTransaction: Undo Edit Two Sided
+[2017.04.15-08.14.51:661][308]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-08.14.51:664][308]LogTemp:Display: Added material ShaderMap 0x000002968C274100 with Material 0x0000029620179800 to ShaderMapsBeingCompiled
+[2017.04.15-08.14.51:724][308]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x000002968C274100
+[2017.04.15-08.14.51:732][308]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-08.14.51:734][308]LogTemp:Display: Added material ShaderMap 0x0000029632DD6E80 with Material 0x0000029620179800 to ShaderMapsBeingCompiled
+[2017.04.15-08.14.51:801][308]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x0000029632DD6E80
+[2017.04.15-08.14.51:801][308]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.15-08.14.51:900][312]LogTemp:Display: Finished compile of shader map 0x00000296AEEAC800
+[2017.04.15-08.14.51:900][312]LogTemp:Display: Shader map M_Leaves complete, GameThreadShaderMap 0x00000296AEEAC800, marking material M_Leaves as finished
+[2017.04.15-08.14.51:900][312]LogTemp:Display: Marking material as finished 0x0000029620179800
+[2017.04.15-08.14.51:926][313]LogTemp:Display: Finished compile of shader map 0x000002968C274100
+[2017.04.15-08.14.51:926][313]LogTemp:Display: Shader map M_Leaves complete, GameThreadShaderMap 0x000002968C274100, marking material M_Leaves as finished
+[2017.04.15-08.14.51:926][313]LogTemp:Display: Marking material as finished 0x0000029620179800
+[2017.04.15-08.14.52:424][344]Cmd: TRANSACTION UNDO
+[2017.04.15-08.14.52:424][344]LogEditorTransaction: Undo Edit Blend Mode
+[2017.04.15-08.14.52:439][344]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-08.14.52:441][344]LogTemp:Display: Added material ShaderMap 0x000002969EB8A780 with Material 0x0000029620179800 to ShaderMapsBeingCompiled
+[2017.04.15-08.14.52:491][344]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x000002969EB8A780
+[2017.04.15-08.14.52:495][344]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-08.14.52:497][344]LogTemp:Display: Added material ShaderMap 0x0000029635E8BC80 with Material 0x0000029620179800 to ShaderMapsBeingCompiled
+[2017.04.15-08.14.52:538][344]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x0000029635E8BC80
+[2017.04.15-08.14.52:538][344]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.15-08.14.52:602][345]LogTemp:Display: Finished compile of shader map 0x0000029632DD6E80
+[2017.04.15-08.14.52:602][345]LogTemp:Display: Shader map M_Leaves complete, GameThreadShaderMap 0x0000029632DD6E80, marking material M_Leaves as finished
+[2017.04.15-08.14.52:602][345]LogTemp:Display: Marking material as finished 0x0000029620179800
+[2017.04.15-08.14.52:743][354]LogTemp:Display: Finished compile of shader map 0x000002969EB8A780
+[2017.04.15-08.14.52:743][354]LogTemp:Display: Shader map M_Leaves complete, GameThreadShaderMap 0x000002969EB8A780, marking material M_Leaves as finished
+[2017.04.15-08.14.52:743][354]LogTemp:Display: Marking material as finished 0x0000029620179800
+[2017.04.15-08.14.53:269][395]Cmd: TRANSACTION UNDO
+[2017.04.15-08.14.53:269][395]LogEditorTransaction: Undo Edit Blend Mode
+[2017.04.15-08.14.53:293][395]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-08.14.53:296][395]LogTemp:Display: Added material ShaderMap 0x000002969EB8A780 with Material 0x0000029620179800 to ShaderMapsBeingCompiled
+[2017.04.15-08.14.53:355][395]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x000002969EB8A780
+[2017.04.15-08.14.53:363][395]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-08.14.53:365][395]LogTemp:Display: Added material ShaderMap 0x000002969F23CB80 with Material 0x0000029620179800 to ShaderMapsBeingCompiled
+[2017.04.15-08.14.53:419][395]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x000002969F23CB80
+[2017.04.15-08.14.53:419][395]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.15-08.14.53:633][408]LogTemp:Display: Finished compile of shader map 0x0000029635E8BC80
+[2017.04.15-08.14.53:633][408]LogTemp:Display: Shader map M_Leaves complete, GameThreadShaderMap 0x0000029635E8BC80, marking material M_Leaves as finished
+[2017.04.15-08.14.53:633][408]LogTemp:Display: Marking material as finished 0x0000029620179800
+[2017.04.15-08.14.54:219][453]Cmd: TRANSACTION UNDO
+[2017.04.15-08.14.54:219][453]LogEditorTransaction: Undo Delete selection
+[2017.04.15-08.14.54:353][453]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-08.14.54:355][453]LogTemp:Display: Added material ShaderMap 0x000002968FC7AE80 with Material 0x0000029620179800 to ShaderMapsBeingCompiled
+[2017.04.15-08.14.54:413][453]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x000002968FC7AE80
+[2017.04.15-08.14.54:414][453]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.15-08.14.54:575][454]LogTemp:Display: Finished compile of shader map 0x000002969F23CB80
+[2017.04.15-08.14.54:575][454]LogTemp:Display: Shader map M_Leaves complete, GameThreadShaderMap 0x000002969F23CB80, marking material M_Leaves as finished
+[2017.04.15-08.14.54:575][454]LogTemp:Display: Marking material as finished 0x0000029620179800
+[2017.04.15-08.14.57:878][651]LogTemp:Display: Finished compile of shader map 0x000002968FC7AE80
+[2017.04.15-08.14.57:878][651]LogTemp:Display: Shader map M_Leaves complete, GameThreadShaderMap 0x000002968FC7AE80, marking material M_Leaves as finished
+[2017.04.15-08.14.57:878][651]LogTemp:Display: Marking material as finished 0x0000029620179800
+[2017.04.15-08.14.57:893][652]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 89 instructions
+[2017.04.15-08.14.57:893][652]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2017.04.15-08.14.57:893][652]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.04.15-08.15.27:894][459]Cmd: DELETE
+[2017.04.15-08.15.27:898][459]Cmd: ACTOR DELETE
+[2017.04.15-08.15.28:035][459]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2017.04.15-08.15.28:063][459]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2017.04.15-08.15.48:742][484]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.15-08.15.48:767][484]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.15.48:767][484]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.15-08.15.48:767][484]PIE: New page: PIE session: FirstPersonExampleMap (Apr 14, 2017, 6:15:48 PM)
+[2017.04.15-08.15.48:767][484]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.15-08.15.48:814][484]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046324s)
+[2017.04.15-08.15.48:816][484]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.15-08.15.48:816][484]LogPlayLevel: PIE: World Init took: (0.002280s)
+[2017.04.15-08.15.48:816][484]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.049000s)
+[2017.04.15-08.15.48:882][484]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.15-08.15.48:903][484]LogInit: FAudioDevice initialized.
+[2017.04.15-08.15.48:936][484]LogLoad: Game class is 'TefMineCraftGameMode'
+[2017.04.15-08.15.48:939][484]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.15-01.15.48
+[2017.04.15-08.15.48:939][484]LogWorld: Bringing up level for play took: 0.001594
+[2017.04.15-08.15.48:941][484]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.922
+[2017.04.15-08.15.48:941][484]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.20.24:064][363]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.20.24:225][363]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.21.32:301][688]Cmd: TRANSACTION UNDO
+[2017.04.15-08.21.32:301][688]LogEditorTransaction: Undo Set actor location
+[2017.04.15-08.21.32:329][688]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-08.21.32:331][688]LogTemp:Display: Added material ShaderMap 0x00000296A1FBCF00 with Material 0x0000029620179800 to ShaderMapsBeingCompiled
+[2017.04.15-08.21.32:366][688]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x00000296A1FBCF00
+[2017.04.15-08.21.32:366][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.15-08.21.36:277][912]LogTemp:Display: Finished compile of shader map 0x00000296A1FBCF00
+[2017.04.15-08.21.36:277][912]LogTemp:Display: Shader map M_Leaves complete, GameThreadShaderMap 0x00000296A1FBCF00, marking material M_Leaves as finished
+[2017.04.15-08.21.36:277][912]LogTemp:Display: Marking material as finished 0x0000029620179800
+[2017.04.15-08.21.36:291][913]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 89 instructions
+[2017.04.15-08.21.36:291][913]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2017.04.15-08.21.36:291][913]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.04.15-08.24.02:387][666]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.15-08.24.02:412][666]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.24.02:413][666]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.15-08.24.02:413][666]PIE: New page: PIE session: FirstPersonExampleMap (Apr 14, 2017, 6:24:02 PM)
+[2017.04.15-08.24.02:413][666]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.15-08.24.02:442][666]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028908s)
+[2017.04.15-08.24.02:444][666]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.15-08.24.02:444][666]LogPlayLevel: PIE: World Init took: (0.002219s)
+[2017.04.15-08.24.02:444][666]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.031531s)
+[2017.04.15-08.24.02:502][666]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.15-08.24.02:523][666]LogInit: FAudioDevice initialized.
+[2017.04.15-08.24.02:557][666]LogLoad: Game class is 'TefMineCraftGameMode'
+[2017.04.15-08.24.02:560][666]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.15-01.24.02
+[2017.04.15-08.24.02:560][666]LogWorld: Bringing up level for play took: 0.001347
+[2017.04.15-08.24.02:561][666]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.542
+[2017.04.15-08.24.02:561][666]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.25.36:588][612]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.25.36:681][612]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.26.21:441][807]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.15-08.26.21:466][807]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.26.21:466][807]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.15-08.26.21:467][807]PIE: New page: PIE session: FirstPersonExampleMap (Apr 14, 2017, 6:26:21 PM)
+[2017.04.15-08.26.21:467][807]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.15-08.26.21:496][807]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029695s)
+[2017.04.15-08.26.21:498][807]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.15-08.26.21:498][807]LogPlayLevel: PIE: World Init took: (0.001789s)
+[2017.04.15-08.26.21:499][807]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.031846s)
+[2017.04.15-08.26.21:555][807]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.15-08.26.21:574][807]LogInit: FAudioDevice initialized.
+[2017.04.15-08.26.21:608][807]LogLoad: Game class is 'TefMineCraftGameMode'
+[2017.04.15-08.26.21:611][807]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.15-01.26.21
+[2017.04.15-08.26.21:611][807]LogWorld: Bringing up level for play took: 0.001454
+[2017.04.15-08.26.21:612][807]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.407
+[2017.04.15-08.26.21:612][807]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.26.58:931][181]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.26.59:027][181]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.27.15:293][713]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.15-08.27.15:320][713]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.27.15:320][713]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.15-08.27.15:320][713]PIE: New page: PIE session: FirstPersonExampleMap (Apr 14, 2017, 6:27:15 PM)
+[2017.04.15-08.27.15:321][713]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.15-08.27.15:349][713]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028229s)
+[2017.04.15-08.27.15:351][713]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.15-08.27.15:351][713]LogPlayLevel: PIE: World Init took: (0.001911s)
+[2017.04.15-08.27.15:351][713]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.030524s)
+[2017.04.15-08.27.15:404][713]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.15-08.27.15:425][713]LogInit: FAudioDevice initialized.
+[2017.04.15-08.27.15:456][713]LogLoad: Game class is 'TefMineCraftGameMode'
+[2017.04.15-08.27.15:459][713]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.15-01.27.15
+[2017.04.15-08.27.15:459][713]LogWorld: Bringing up level for play took: 0.001430
+[2017.04.15-08.27.15:476][713]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.543
+[2017.04.15-08.27.15:476][713]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.27.59:356][872]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.27.59:452][872]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.28.16:091][409]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.15-08.28.16:116][409]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.28.16:116][409]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.15-08.28.16:116][409]PIE: New page: PIE session: FirstPersonExampleMap (Apr 14, 2017, 6:28:16 PM)
+[2017.04.15-08.28.16:116][409]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.15-08.28.16:165][409]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048924s)
+[2017.04.15-08.28.16:167][409]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.15-08.28.16:167][409]LogPlayLevel: PIE: World Init took: (0.001770s)
+[2017.04.15-08.28.16:168][409]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.051278s)
+[2017.04.15-08.28.16:219][409]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.15-08.28.16:238][409]LogInit: FAudioDevice initialized.
+[2017.04.15-08.28.16:270][409]LogLoad: Game class is 'TefMineCraftGameMode'
+[2017.04.15-08.28.16:273][409]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.15-01.28.16
+[2017.04.15-08.28.16:273][409]LogWorld: Bringing up level for play took: 0.001325
+[2017.04.15-08.28.16:274][409]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.255
+[2017.04.15-08.28.16:274][409]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.29.24:025][871]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.29.24:118][871]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.29.45:271][738]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.15-08.29.45:295][738]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.29.45:296][738]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.15-08.29.45:296][738]PIE: New page: PIE session: FirstPersonExampleMap (Apr 14, 2017, 6:29:45 PM)
+[2017.04.15-08.29.45:296][738]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.15-08.29.45:338][738]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042118s)
+[2017.04.15-08.29.45:339][738]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.15-08.29.45:340][738]LogPlayLevel: PIE: World Init took: (0.001736s)
+[2017.04.15-08.29.45:340][738]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.044249s)
+[2017.04.15-08.29.45:401][738]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.15-08.29.45:420][738]LogInit: FAudioDevice initialized.
+[2017.04.15-08.29.45:456][738]LogLoad: Game class is 'TefMineCraftGameMode'
+[2017.04.15-08.29.45:459][738]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.15-01.29.45
+[2017.04.15-08.29.45:459][738]LogWorld: Bringing up level for play took: 0.001330
+[2017.04.15-08.29.45:460][738]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.559
+[2017.04.15-08.29.45:461][738]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.30.36:221][480]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.30.36:317][480]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.30.54:050][131]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.15-08.30.54:074][131]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.30.54:074][131]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.15-08.30.54:074][131]PIE: New page: PIE session: FirstPersonExampleMap (Apr 14, 2017, 6:30:54 PM)
+[2017.04.15-08.30.54:074][131]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.15-08.30.54:119][131]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045450s)
+[2017.04.15-08.30.54:121][131]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.15-08.30.54:121][131]LogPlayLevel: PIE: World Init took: (0.001615s)
+[2017.04.15-08.30.54:121][131]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.047393s)
+[2017.04.15-08.30.54:170][131]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.15-08.30.54:188][131]LogInit: FAudioDevice initialized.
+[2017.04.15-08.30.54:217][131]LogLoad: Game class is 'TefMineCraftGameMode'
+[2017.04.15-08.30.54:220][131]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.15-01.30.54
+[2017.04.15-08.30.54:220][131]LogWorld: Bringing up level for play took: 0.001345
+[2017.04.15-08.30.54:221][131]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.202
+[2017.04.15-08.30.54:222][131]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.33.58:756][ 28]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.33.58:856][ 28]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.34.11:803][417]LogMaterialEditor: Applying material M_Leaves
+[2017.04.15-08.34.14:531][417]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-08.34.14:533][417]LogTemp:Display: Added material ShaderMap 0x00000296AEAAA080 with Material 0x0000029620179800 to ShaderMapsBeingCompiled
+[2017.04.15-08.34.14:604][417]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x00000296AEAAA080
+[2017.04.15-08.34.14:605][417]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.15-08.34.14:635][417]LogTemp:Display: Removed shader map 0x00000296ADD4A080 from material 0x000002962C8DD000
+[2017.04.15-08.34.14:649][417]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-08.34.14:651][417]LogTemp:Display: Added material ShaderMap 0x000002962C8AE080 with Material 0x000002962C8DCD00 to ShaderMapsBeingCompiled
+[2017.04.15-08.34.14:717][417]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x000002962C8AE080
+[2017.04.15-08.34.14:722][417]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-08.34.14:724][417]LogTemp:Display: Added material ShaderMap 0x00000296B2261980 with Material 0x000002962C8DCD00 to ShaderMapsBeingCompiled
+[2017.04.15-08.34.14:774][417]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x00000296B2261980
+[2017.04.15-08.34.14:777][417]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.15-08.34.14:810][417]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Leaves, compiling. 
+[2017.04.15-08.34.14:812][417]LogTemp:Display: Added material ShaderMap 0x00000296B0E50800 with Material 0x00000296B0E03A00 to ShaderMapsBeingCompiled
+[2017.04.15-08.34.19:438][417]LogTemp:Display: Finished compile of shader map 0x00000296B0E50800
+[2017.04.15-08.34.19:438][417]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Leaves complete, GameThreadShaderMap 0x00000296B0E50800, marking material FDebugViewModeMaterialProxy M_Leaves as finished
+[2017.04.15-08.34.19:438][417]LogTemp:Display: Marking material as finished 0x00000296B0E03A00
+[2017.04.15-08.34.19:455][417]TextureStreamingBuild:Display: Compiling optional shaders took 4.644 seconds.
+[2017.04.15-08.34.19:517][417]LogTemp:Display: Finished compile of shader map 0x00000296AEAAA080
+[2017.04.15-08.34.19:517][417]LogTemp:Display: Shader map M_Leaves complete, GameThreadShaderMap 0x00000296AEAAA080, marking material M_Leaves as finished
+[2017.04.15-08.34.19:517][417]LogTemp:Display: Marking material as finished 0x0000029620179800
+[2017.04.15-08.34.23:622][689]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.15-08.34.23:651][689]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.34.23:651][689]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.15-08.34.23:651][689]PIE: New page: PIE session: FirstPersonExampleMap (Apr 14, 2017, 6:34:23 PM)
+[2017.04.15-08.34.23:651][689]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.15-08.34.23:708][689]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056188s)
+[2017.04.15-08.34.23:709][689]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.15-08.34.23:710][689]LogPlayLevel: PIE: World Init took: (0.001909s)
+[2017.04.15-08.34.23:710][689]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.058468s)
+[2017.04.15-08.34.23:774][689]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.15-08.34.23:797][689]LogInit: FAudioDevice initialized.
+[2017.04.15-08.34.23:831][689]LogLoad: Game class is 'TefMineCraftGameMode'
+[2017.04.15-08.34.23:834][689]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.15-01.34.23
+[2017.04.15-08.34.23:834][689]LogWorld: Bringing up level for play took: 0.001399
+[2017.04.15-08.34.23:835][689]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.184
+[2017.04.15-08.34.23:836][689]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.34.35:041][689]LogTemp:Display: Finished compile of shader map 0x00000296B2261980
+[2017.04.15-08.34.35:041][689]LogTemp:Display: Shader map M_Leaves complete, GameThreadShaderMap 0x00000296B2261980, marking material M_Leaves as finished
+[2017.04.15-08.34.35:041][689]LogTemp:Display: Marking material as finished 0x000002962C8DCD00
+[2017.04.15-08.34.35:179][690]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 89 instructions
+[2017.04.15-08.34.35:179][690]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2017.04.15-08.34.35:179][690]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.15-08.41.42:225][833]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.41.42:308][833]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.43.15:669][178]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.04.15-08.43.17:715][265]LogSavePackage: Save=236.28ms
+[2017.04.15-08.43.17:715][265]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Saved/FirstPersonCharacter8E5BA9DD41F45284D99CE7B51EB890DE.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset'
+[2017.04.15-08.43.17:729][265]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset
+[2017.04.15-08.44.35:398][173]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.15-08.44.35:423][173]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.44.35:423][173]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.15-08.44.35:423][173]PIE: New page: PIE session: FirstPersonExampleMap (Apr 14, 2017, 6:44:35 PM)
+[2017.04.15-08.44.35:423][173]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.15-08.44.35:473][173]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048870s)
+[2017.04.15-08.44.35:474][173]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.15-08.44.35:475][173]LogPlayLevel: PIE: World Init took: (0.001824s)
+[2017.04.15-08.44.35:475][173]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.051077s)
+[2017.04.15-08.44.35:540][173]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.15-08.44.35:557][173]LogInit: FAudioDevice initialized.
+[2017.04.15-08.44.35:593][173]LogLoad: Game class is 'TefMineCraftGameMode'
+[2017.04.15-08.44.35:595][173]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.15-01.44.35
+[2017.04.15-08.44.35:596][173]LogWorld: Bringing up level for play took: 0.001194
+[2017.04.15-08.44.35:596][173]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.423
+[2017.04.15-08.44.35:597][173]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.44.37:119][344]LogScriptCore:Warning: Script Msg: Attempted to access index -1 from array Chunks of length 0!
+[2017.04.15-08.44.37:127][344]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	FirstPersonCharacter_C /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:06AD
+[2017.04.15-08.44.37:133][344]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_FirstPersonCharacter' from node: Set Voxel in graph: EventGraph in object: FirstPersonCharacter with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.04.15-08.44.37:141][344]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	FirstPersonCharacter_C /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0754
+[2017.04.15-08.44.37:141][344]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_FirstPersonCharacter' from node: Set Voxel in graph: EventGraph in object: FirstPersonCharacter with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.04.15-08.44.41:712][874]LogScriptCore:Warning: Script Msg: Attempted to access index -1 from array Chunks of length 0!
+[2017.04.15-08.44.41:712][874]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	FirstPersonCharacter_C /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:06AD
+[2017.04.15-08.44.41:712][874]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_FirstPersonCharacter' from node: Set Voxel in graph: EventGraph in object: FirstPersonCharacter with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.04.15-08.44.41:712][874]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	FirstPersonCharacter_C /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0754
+[2017.04.15-08.44.41:712][874]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_FirstPersonCharacter' from node: Set Voxel in graph: EventGraph in object: FirstPersonCharacter with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.04.15-08.44.42:776][999]LogScriptCore:Warning: Script Msg: Attempted to access index -1 from array Chunks of length 0!
+[2017.04.15-08.44.42:776][999]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	FirstPersonCharacter_C /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:06AD
+[2017.04.15-08.44.42:776][999]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_FirstPersonCharacter' from node: Set Voxel in graph: EventGraph in object: FirstPersonCharacter with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.04.15-08.44.42:776][999]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	FirstPersonCharacter_C /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0754
+[2017.04.15-08.44.42:776][999]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_FirstPersonCharacter' from node: Set Voxel in graph: EventGraph in object: FirstPersonCharacter with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.04.15-08.44.44:364][187]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.44.44:439][187]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.46.26:351][494]LogSavePackage: Save=157.25ms
+[2017.04.15-08.46.26:351][494]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Saved/FirstPersonExampleMap_Auto24239B88F4C3FD06587AFA49E6BA2B37E.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2017.04.15-08.46.26:353][494]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto2.umap
+[2017.04.15-08.46.26:355][494]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.452
+[2017.04.15-08.46.26:355][494]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.452
+[2017.04.15-08.46.26:376][494]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2017.04.15-08.46.26:409][494]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2017.04.15-08.46.26:409][494]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter]
+[2017.04.15-08.46.26:598][494]LogSavePackage: Save=180.65ms
+[2017.04.15-08.46.26:598][494]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Saved/FirstPersonCharacter_Auto29F88EE9E4A860F2021D4CE9CC2DFE16B.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter_Auto2.uasset'
+[2017.04.15-08.46.26:611][494]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter_Auto2.uasset
+[2017.04.15-08.46.26:664][494]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyAssets/Materials/M_Leaves] ([1] browsable assets)...
+[2017.04.15-08.46.26:714][494]OBJ SavePackage:     Rendered thumbnail for [Material /Game/MyAssets/Materials/M_Leaves.M_Leaves]
+[2017.04.15-08.46.26:714][494]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAssets/Materials/M_Leaves]
+[2017.04.15-08.46.26:772][494]LogSavePackage: Save=43.30ms
+[2017.04.15-08.46.26:772][494]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Saved/M_Leaves_Auto2DCFE0F8E4ADF75429D6AC9A2DB4FC915.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Saved/Autosaves/Game/MyAssets/Materials/M_Leaves_Auto2.uasset'
+[2017.04.15-08.46.26:799][494]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Saved/Autosaves/Game/MyAssets/Materials/M_Leaves_Auto2.uasset
+[2017.04.15-08.46.26:799][494]LogFileHelpers: Auto-saving content packages took 0.443
+[2017.04.15-08.49.49:630][639]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.04.15-08.49.50:835][693]LogSavePackage: Save=185.31ms
+[2017.04.15-08.49.50:835][693]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Saved/FirstPersonCharacterB87AEDF24EE53F3DE850DB8F5D8DD77D.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset'
+[2017.04.15-08.49.50:843][693]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset
+[2017.04.15-08.51.32:215][414]LogRenderer: Reallocating scene render targets to support 1164x744 NumSamples 1 (Frame:655411).
+[2017.04.15-08.55.12:039][220]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.04.15-08.55.13:347][285]LogSavePackage: Save=183.48ms
+[2017.04.15-08.55.13:347][285]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Saved/FirstPersonCharacter93A3C18B4235ED4DD0923D93BA0A22A5.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset'
+[2017.04.15-08.55.13:351][285]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset
+[2017.04.15-08.55.30:154][ 12]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.15-08.55.30:180][ 12]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.55.30:180][ 12]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.15-08.55.30:180][ 12]PIE: New page: PIE session: FirstPersonExampleMap (Apr 14, 2017, 6:55:30 PM)
+[2017.04.15-08.55.30:180][ 12]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.04.15-08.55.30:238][ 12]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058106s)
+[2017.04.15-08.55.30:240][ 12]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.15-08.55.30:240][ 12]LogPlayLevel: PIE: World Init took: (0.001938s)
+[2017.04.15-08.55.30:241][ 12]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.060414s)
+[2017.04.15-08.55.30:300][ 12]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.15-08.55.30:319][ 12]LogInit: FAudioDevice initialized.
+[2017.04.15-08.55.30:354][ 12]LogLoad: Game class is 'TefMineCraftGameMode'
+[2017.04.15-08.55.30:357][ 12]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.04.15-01.55.30
+[2017.04.15-08.55.30:357][ 12]LogWorld: Bringing up level for play took: 0.001415
+[2017.04.15-08.55.30:358][ 12]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.339
+[2017.04.15-08.55.30:359][ 12]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.56.11:632][168]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.092198 > MaxSimulationTimeStep (0.050) for 'FirstPersonCharacter_C_0', movement 'Walking'
+[2017.04.15-08.57.27:309][884]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.096081 > MaxSimulationTimeStep (0.050) for 'FirstPersonCharacter_C_0', movement 'Walking'
+[2017.04.15-08.57.57:677][874]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.071208 > MaxSimulationTimeStep (0.050) for 'FirstPersonCharacter_C_0', movement 'Walking'
+[2017.04.15-08.58.26:019][116]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.069151 > MaxSimulationTimeStep (0.050) for 'FirstPersonCharacter_C_0', movement 'Walking'
+[2017.04.15-08.59.04:367][215]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-08.59.04:500][215]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.04.15-09.00.53:589][100]BlueprintLog: New page: Compile BP_Voxel
+[2017.04.15-09.00.54:574][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/Blueprints/BP_Voxel" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/MyAssets/Blueprints/BP_Voxel.uasset" SILENT=true
+[2017.04.15-09.00.54:652][163]LogSavePackage: Save=58.03ms
+[2017.04.15-09.00.54:652][163]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Saved/BP_VoxelBC74313645FD2C2C568F99A093980CCB.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/MyAssets/Blueprints/BP_Voxel.uasset'
+[2017.04.15-09.00.54:667][163]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/MyAssets/Blueprints/BP_Voxel.uasset
+[2017.04.15-09.00.57:737][516]LogMaterialEditor: Saving and Compiling material M_Leaves
+[2017.04.15-09.00.57:755][516]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/Materials/M_Leaves" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/MyAssets/Materials/M_Leaves.uasset" SILENT=true
+[2017.04.15-09.00.57:782][516]LogSavePackage: Save=12.05ms
+[2017.04.15-09.00.57:782][516]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Saved/M_LeavesDECDE7D94D04E70CB1AE598112443023.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/MyAssets/Materials/M_Leaves.uasset'
+[2017.04.15-09.00.57:789][516]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/MyAssets/Materials/M_Leaves.uasset
+[2017.04.15-09.01.52:964][940]LogMaterialEditor: Applying material M_Leaves
+[2017.04.15-09.01.56:193][940]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-09.01.56:195][940]LogTemp:Display: Added material ShaderMap 0x0000029618876080 with Material 0x0000029620179800 to ShaderMapsBeingCompiled
+[2017.04.15-09.01.56:274][940]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x0000029618876080
+[2017.04.15-09.01.56:275][940]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.15-09.01.56:289][940]LogTemp:Display: Removed shader map 0x000002962C8AE080 from material 0x000002962C8DCD00
+[2017.04.15-09.01.56:304][940]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-09.01.56:306][940]LogTemp:Display: Added material ShaderMap 0x00000296BA732080 with Material 0x000002965CF57B80 to ShaderMapsBeingCompiled
+[2017.04.15-09.01.56:382][940]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x00000296BA732080
+[2017.04.15-09.01.56:387][940]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2017.04.15-09.01.56:389][940]LogTemp:Display: Added material ShaderMap 0x00000296B7F46780 with Material 0x000002965CF57B80 to ShaderMapsBeingCompiled
+[2017.04.15-09.01.56:446][940]LogTemp:Display: Kicking off shader compilation for M_Leaves, GameThreadShaderMap 0x00000296B7F46780
+[2017.04.15-09.01.56:448][940]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.15-09.01.56:481][940]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Leaves, compiling. 
+[2017.04.15-09.01.56:483][940]LogTemp:Display: Added material ShaderMap 0x00000296B8985980 with Material 0x0000029631A29C00 to ShaderMapsBeingCompiled
+[2017.04.15-09.02.00:691][940]LogTemp:Display: Finished compile of shader map 0x00000296B8985980
+[2017.04.15-09.02.00:691][940]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Leaves complete, GameThreadShaderMap 0x00000296B8985980, marking material FDebugViewModeMaterialProxy M_Leaves as finished
+[2017.04.15-09.02.00:691][940]LogTemp:Display: Marking material as finished 0x0000029631A29C00
+[2017.04.15-09.02.00:697][940]TextureStreamingBuild:Display: Compiling optional shaders took 4.224 seconds.
+[2017.04.15-09.02.00:749][940]LogTemp:Display: Finished compile of shader map 0x0000029618876080
+[2017.04.15-09.02.00:749][940]LogTemp:Display: Shader map M_Leaves complete, GameThreadShaderMap 0x0000029618876080, marking material M_Leaves as finished
+[2017.04.15-09.02.00:749][940]LogTemp:Display: Marking material as finished 0x0000029620179800
+[2017.04.15-09.02.01:837][ 15]LogMaterialEditor: Saving and Compiling material M_Leaves
+[2017.04.15-09.02.04:814][ 15]LogTemp:Display: Finished compile of shader map 0x00000296B7F46780
+[2017.04.15-09.02.04:814][ 15]LogTemp:Display: Shader map M_Leaves complete, GameThreadShaderMap 0x00000296B7F46780, marking material M_Leaves as finished
+[2017.04.15-09.02.04:814][ 15]LogTemp:Display: Marking material as finished 0x000002965CF57B80
+[2017.04.15-09.02.04:869][ 15]LogSlate: Took 0.014857 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.15-09.02.04:928][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/Materials/M_Leaves" FILE="../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/MyAssets/Materials/M_Leaves.uasset" SILENT=true
+[2017.04.15-09.02.04:964][ 15]LogSavePackage: Save=24.12ms
+[2017.04.15-09.02.04:964][ 15]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Saved/M_Leaves6E217B12485AD17B395E9F9CA913BF46.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/MyAssets/Materials/M_Leaves.uasset'
+[2017.04.15-09.02.04:971][ 15]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/MyAssets/Materials/M_Leaves.uasset
+[2017.04.15-09.02.04:979][ 15]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 89 instructions
+[2017.04.15-09.02.04:979][ 15]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2017.04.15-09.02.04:979][ 15]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.15-09.03.40:796][936]LogSavePackage: Save=167.32ms
+[2017.04.15-09.03.40:796][936]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Saved/FirstPersonExampleMap_Auto30CE39CBD4FDD2519CD579E88191EA241.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto3.umap'
+[2017.04.15-09.03.40:798][936]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto3.umap
+[2017.04.15-09.03.40:800][936]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.235
+[2017.04.15-09.03.40:800][936]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.235
+[2017.04.15-10.00.43:758][519]LogSavePackage: Save=244.70ms
+[2017.04.15-10.00.43:758][519]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Saved/FirstPersonExampleMap498E4257442AEF0D8D27E49555D81B6D.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2017.04.15-10.00.43:766][519]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
+[2017.04.15-10.00.44:106][519]LogSavePackage: Save=160.02ms
+[2017.04.15-10.00.44:106][519]LogSavePackage: Moving '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Saved/FirstPersonExampleMap_BuiltDataFC495314442EAB2C0FD7DC9A8C615A34.tmp' to '../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.04.15-10.00.44:107][519]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Liam/Documents/Unreal Projects/TefMineCraft/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.04.15-10.00.47:648][691]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.04.15-10.00.47:822][691]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.15-10.00.48:518][692]Cmd: QUIT_EDITOR
+[2017.04.15-10.00.51:223][692]LogExit: Preparing to exit.
+[2017.04.15-10.01.00:045][692]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2017.04.15-10.01.00:045][692]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2017.04.15-10.01.00:045][692]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2017.04.15-10.01.00:045][692]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2017.04.15-10.01.00:045][692]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2017.04.15-10.01.00:045][692]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
